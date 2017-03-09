@@ -1,0 +1,17 @@
+//--------------------------------------------------------------
+//                       Floated menu
+//--------------------------------------------------------------
+
+
+.nav__primary{
+
+}
+
+.nav__primary .menu {
+	@include clearfix;
+	display: inline-block;
+	width:100%;
+	position:relative;
+  > li {
+  }
+}

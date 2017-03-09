@@ -1,0 +1,145 @@
+/*========================================================
+                         Footer
+=========================================================*/
+
+footer {
+	margin-top:27px;
+	padding-top: 40px;
+	background: url(../image/footer-shadow.png) repeat-x center top;
+	h5{
+		font-size: 18px;
+		line-height: 22px;
+		margin: 4px 0 17px 0;
+	}
+  a {
+	color:$base-color;
+		&:visited{
+			color:$base-color;
+		}
+	  &:hover, &:active, &:focus {
+		color: $primary;
+	  }
+  }
+  ul {
+  margin:0;
+	  li{
+		margin: 6px 0;
+		display:inline-block;
+		width:100%;
+		text-transform:uppercase;
+		font: 300 12px/18px $base-font-family;
+	  }
+  }
+	.logo{
+		margin:14px 0 44px;
+	}
+	.social {
+		text-align:center;
+		max-width:249px;
+		li {
+			margin: 0 0 10px 30px;
+			display:inline-block;
+			width:auto;
+			font: 400 16px/19px $base-font-family;
+			&:first-child{
+				margin-left:0;
+			}
+			a {
+				color: #acafb2;
+				&:visited {
+					color:#acafb2;
+				}
+				&:hover, &:active, &:focus {
+					color:$primary;
+				}
+			}
+		}
+	}
+	.col-sm-2.cast{
+		width:19.444%;
+	}
+}
+
+.copyright br{
+  display: none;
+}
+.powered {
+	display:inline-block;
+	vertical-align:top;
+	margin-top:7px;
+}
+.site-logo {
+	display:none;
+	float:right;
+}
+.copyright {
+  margin-top: 38px;
+  >.container{
+	font-weight: 300;
+    padding-bottom: 67px;
+	a, a:visited{
+		color:$base-color;
+	}
+	a:hover, a:focus, a:active {
+		color:$primary;
+	}
+
+	hr{
+		margin:20px 0 17px;
+		border-top: 1px solid #dcdcdc;
+	}
+  }
+}
+/*========================================================
+                    Responsive  Footer
+=========================================================*/
+
+@media (min-width:768px) and (max-width: 991px) {
+	footer {
+		ul li {
+			font-size:10px;
+			line-height:16px;
+		}
+		h5{
+			font-size: 13px;
+			line-height: 16px;
+			margin-bottom:10px;
+		}
+		.logo {
+			margin: 8px 0 30px;
+		}
+		.col-sm-3 {
+			width: 25%;
+		}
+		.col-sm-2.cast,
+		.col-sm-3
+		{
+			width: 20.8%;
+		}
+	}
+}
+@media (max-width: 767px) {
+
+  .box-right-bottom,
+  footer > .container {
+    display: none;
+  }
+  footer{
+    text-align: center;
+    .copyright{
+      margin-top: 0;
+	  .container {
+		padding-bottom:50px;
+	  }
+	  hr{
+		display:none;
+	  }
+    }
+	.powered,
+	.site-logo {
+        display: none;
+		width:100%;
+		float:none;
+	}
+  }
+}

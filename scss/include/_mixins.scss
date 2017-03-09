@@ -1,0 +1,264 @@
+//==========================================================
+//                        MIXINS
+//==========================================================
+//----------------------------------------------------------
+//                      Reset Input
+//----------------------------------------------------------
+// Makes an input be a fully non-styled
+//
+@mixin reset-input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    vertical-align: baseline;
+    box-shadow: none;
+}
+
+//--------------------------------------------------------------------------
+//                          TRIANGLE BORDER
+//--------------------------------------------------------------------------
+//
+//  Creates a triangle border
+//
+//  Parameters:
+//      @dir - direction of triangle
+//      @w   - width of triangle
+//      @h:  - height of triangle
+//      @clr - color of triangle
+//
+@mixin triangle($dir, $w, $h, $clr) {
+    width: 0;
+    height: 0;
+    border-style: solid;
+
+    @if $dir == top {
+        border-width: 0 $w/2 $h $w/2;
+        border-color: transparent transparent $clr transparent;
+    }
+    @else if $dir == bottom {
+        border-width: $h $w/2 0 $w/2;
+        border-color: $clr transparent transparent transparent;
+    }
+    @else if $dir == left {
+        border-width: $h/2 $w $h/2 0;
+        border-color: transparent $clr transparent transparent;
+    }
+    @else if $dir == right {
+        border-width: $h/2 0 $h/2 $w;
+        border-color: transparent transparent transparent $clr;
+    }
+    @else if $dir == top_left {
+        border-width: $w $w 0 0;
+        border-color: $clr transparent transparent transparent;
+    }
+    @else if $dir == top_right {
+        border-width: 0 $w $w 0;
+        border-color: transparent $clr transparent transparent;
+    }
+    @else if $dir == bottom_right {
+        border-width: 0 0 $w $w;
+        border-color: transparent transparent $clr transparent;
+    }
+    @else if $dir == bottom_left {
+        border-width: $w 0 0 $w;
+        border-color: transparent transparent transparent $clr;
+    }
+}
+
+//----------------------------------------------------------
+//                      Box Sizing
+//----------------------------------------------------------
+// Sets the box-sizing of element
+//
+@mixin box-sizing($bs) {
+    -moz-box-sizing: $bs;
+    -webkit-box-sizing: $bs;
+    box-sizing: $bs;
+}
+
+//----------------------------------------------------------
+//                       Transform
+//----------------------------------------------------------
+// Sets the transform of element
+//
+@mixin transform($trfm) {
+    -moz-transform: $trfm;
+    -ms-transform: $trfm;
+    -o-transform: $trfm;
+    -webkit-transform: $trfm;
+    transform: $trfm;
+}
+
+//----------------------------------------------------------
+//                       border-radius
+//----------------------------------------------------------
+// Sets the transform of element
+//
+@mixin border-radius($rad) {
+    -moz-border-radius: $rad;
+    -ms-border-radius: $rad;
+    -o-border-radius: $rad;
+    -webkit-border-radius: $rad;
+	border-radius: $rad;
+}
+
+//----------------------------------------------------------
+//                    Transform Origin
+//----------------------------------------------------------
+// Sets the transform origin of element
+//
+@mixin transform-origin($trfm-o) {
+    -moz-transform-origin: $trfm-o;
+    -ms-transform-origin: $trfm-o;
+    -o-transform-origin: $trfm-o;
+    -webkit-transform-origin: $trfm-o;
+    transform-origin: $trfm-o;
+}
+
+//----------------------------------------------------------
+//                      Transition
+//----------------------------------------------------------
+// Sets the transition of element
+//
+@mixin transition($trsn) {
+    -moz-transition: $trsn;
+    -o-transition: $trsn;
+    -webkit-transition: $trsn;
+    transition: $trsn;
+}
+
+//----------------------------------------------------------
+//                   Transition Delay
+//----------------------------------------------------------
+// Sets the transition delay of element
+//
+@mixin transition-delay($trsn-d) {
+    -moz-transition-delay: $trsn-d;
+    -o-transition-delay: $trsn-d;
+    -webkit-transition-delay: $trsn-d;
+    transition-delay: $trsn-d;
+}
+
+//----------------------------------------------------------
+//                   Animation
+//----------------------------------------------------------
+// Sets the animation of element
+//
+@mixin animation($anim) {
+    -webkit-animation: $anim;
+    -moz-animation: $anim;
+    -ms-animation: $anim;
+    -o-animation: $anim;
+    animation: $anim;
+}
+
+//----------------------------------------------------------
+//                       Hide Text
+//----------------------------------------------------------
+// Hides the inline text of specified element.
+//
+@mixin hide-text {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+//----------------------------------------------------------
+//                     User Select
+//----------------------------------------------------------
+// Sets the select rule set
+//
+@mixin user-select($select: none) {
+    -webkit-user-select: $select;
+    -khtml-user-select: $select;
+    -moz-user-select: $select;
+    -ms-user-select: $select;
+    user-select: $select;
+}
+
+//----------------------------------------------------------
+//                     Box Shadow
+//----------------------------------------------------------
+// Sets the box shadow of element
+//
+
+@mixin box-shadow($box-shadow) {
+    -webkit-box-shadow: $box-shadow;
+    -moz-box-shadow: $box-shadow;
+    box-shadow: $box-shadow;
+}
+
+@mixin box-shadow-litt {
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.11);
+    -moz-box-shadow:  0 0 10px rgba(0,0,0,.11);
+    box-shadow:  0 0 10px rgba(0,0,0,.11);
+}
+
+@mixin box-shadow-button {
+    -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.05);
+    -moz-box-shadow:  0 5px 5px rgba(0,0,0,.05);
+    box-shadow:  0 5px 5px rgba(0,0,0,.05);
+}
+
+//----------------------------------------------------------
+//                      Clearfix
+//----------------------------------------------------------
+@mixin clearfix{
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+//----------------------------------------------------------
+//                     Reset Button
+//----------------------------------------------------------
+// reset the button styles
+
+@mixin reset-button{
+    background: none;
+    border: none;
+    display: inline-block;
+    padding: 0;
+    outline: none;
+    outline-offset: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+    &::-moz-focus-inner {
+        border: none;
+        padding: 0;
+    }
+}
+
+//----------------------------------------------------------
+//                        Button
+//----------------------------------------------------------
+//  Parameters:
+//      @lp   - Left Padding of button
+//      @rp   - Right Padding of button
+//      @h:  - height of button
+//      @lh - line-height of Button
+@mixin btn($lp,$rp, $h, $lh){
+    display: inline-block;
+    padding: ($h - $lh)/2 $rp ($h - $lh)/2 $lp;
+    line-height: $lh;
+}
+
+@mixin clip($x1, $x2, $y1, $y2){
+    clip: rect($y1,$x2,$y2,$x1);
+}
+
+//----------------------------------------------------------
+//                    Default Variables
+//----------------------------------------------------------
+$n: null;
+$fa: 'FontAwesome';

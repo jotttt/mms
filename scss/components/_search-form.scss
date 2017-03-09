@@ -1,0 +1,128 @@
+/*==================     Search Form     ======================*/
+$form-bg: transparent;
+$form-width: 113px;
+$form-height: 20px;
+$form-border: none;
+$form-color: #fff;
+
+$form-submit-icon: '\f002';
+$form-submit-color: $primary;
+$form-submit-hover: #2d2e42;
+
+
+.search{
+	position: relative;
+	margin:19px 15px 10px 20px;
+	font-weight:300;
+  input {
+    @include reset-input;
+    color: $form-color;
+    display: block;
+	float:left;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    width: $form-width;
+    height: $form-height;
+    padding: (($form-height - 20px) / 2) 0;
+    background: $form-bg;
+    border: $form-border;
+    @include box-sizing(border-box);
+    &::-webkit-input-placeholder{
+      color: $form-color;
+      opacity: 1;
+    }
+    &:-moz-placeholder{
+      color: $form-color;
+      opacity: 1;
+    }
+    &::-moz-placeholder{
+      color: $form-color;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder  {
+      color: $form-color;
+      opacity: 1;
+    }
+  }
+
+  button {
+    @include reset-button;
+    @include transition(.3s all ease);
+    color: #fff;
+	line-height:20px;
+	i{
+		font-size:25px;
+		line-height:25px;
+	}
+  }
+
+  button:hover, button:focus:hover, button:active:hover {
+    color: $form-submit-hover;
+  }
+}
+
+//--------------------------------------------------------------
+//                    Responsive Layout
+//--------------------------------------------------------------
+
+@media (max-width: 479px) {
+  .search-form{
+    width: 270px;
+  }
+}
+
+//--------------------------------------------------------------
+//                    Live Search
+//--------------------------------------------------------------
+#livesearch_search_results {
+  margin: 15px 0 0;
+  padding: 5px !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  @include box-shadow-litt;
+  list-style-type: none;
+  z-index: 12;
+  width: 100%;
+  min-width:237px;
+  border-top: 0;
+  font-size: 12px;
+  text-transform:uppercase;
+  form-width:300;
+  li{
+    padding: 0px;
+    overflow: hidden;
+	@include transition(.3s all ease);
+    img{
+      overflow: hidden;
+      float: left;
+      margin-right: 10px;
+      &.loading{
+        background: #F5F5F5;
+      }
+    }
+    &:hover,&.highlighted{
+      background-color: $primary;
+      a{
+        color: #FFF;
+      }
+    }
+
+  }
+  a, a:visited{
+    display: block;
+    padding: 5px;
+    float: left;
+    width: 100%;
+    color: $base-color;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #livesearch_search_results li img{
+    display: none!important;
+  }
+}

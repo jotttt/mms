@@ -1,0 +1,18 @@
+//--------------------------------------------------------------
+//                     Full Width menu
+//--------------------------------------------------------------
+.nav__primary .menu {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  > li {
+    position: relative;
+    display: table-cell;
+  }
+}
+
+
+
+
+

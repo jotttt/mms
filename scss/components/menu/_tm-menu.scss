@@ -1,0 +1,151 @@
+/*========================================================
+                      Menu styles
+=========================================================*/
+@import "_floated-menu.scss";
+
+.nav__primary {
+	margin:21px 0 18px;
+	font:300 14px/16px $base-font-family;
+	background: url(../image/menu-shadow.png) repeat-x center bottom;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu {
+	   > li {
+		float:left;
+		padding:24px 11px 29px;
+		&:first-child{
+			padding-left:0;
+		}
+		> a {
+			display: block;
+			text-transform:uppercase;
+			color:$base-color;
+			font:300 14px/16px $base-font-family;
+		}
+		&.sfHover > a, > a:hover, > a.active{
+			color: $primary;
+		}
+	  }
+	 > li > ul {
+		display: none;
+		position: absolute;
+		background:#fff;
+		@include box-shadow-litt;
+		z-index: 99;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		margin-top: 0;
+		@include box-sizing(border-box);
+		li {
+			position: relative;
+			display: table-cell;
+			padding:25px 25px 22px;
+			a{
+				text-transform:uppercase;
+				font:300 18px/22px $base-font-family;
+				color:$base-color;
+			}
+			ul{
+				padding-top:18px;
+				border-top:1px solid #dcdcdc;
+				margin-top:18px;
+				li {
+					display:block;
+					padding:7px 0;
+					opacity: 1 !important;
+					a{
+						font:300 12px/14px $base-font-family;
+						color:$base-color;
+					}
+				}
+			}
+		  }
+		a{
+			display: inline-block;
+		  }
+		li.active > a, a:hover, li.sfHover > a {
+			color: $primary;
+		  }
+		ul {
+				position:relative;
+				display: block !important;
+				opacity: 1 !important;
+				visibility: visible !important;
+				width:100%;
+				table-layout: fixed;
+				&:before{
+				display: none;
+				}
+			}
+		}
+
+	}
+	.menu > li.sfHover > ul {
+		display: table !important;
+	}
+}
+
+//--------------------------------------------------------------
+//                      sf-with-ul styles
+//--------------------------------------------------------------
+.nav__primary .menu > li > .sf-with-ul,
+.nav__primary .menu ul > li > .sf-with-ul {
+  &:before {
+	display:none;
+  }
+}
+
+//--------------------------------------------------------------
+//                      Responsive
+//--------------------------------------------------------------
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.nav__primary .menu > li {
+		padding-left:5px;
+		padding-right:5px;
+		> a {
+			font-size:13px;
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.nav__primary .menu > li {
+		padding-left:4px;
+		padding-right:4px;
+		> a {
+			font-size:11px;
+		}
+		> ul li {
+		a {
+			font-size:14px;
+			line-height:16px;
+		}
+		ul {
+			margin-top: 10px;
+			padding-top: 10px;
+			li {
+				padding: 4px 0;
+					a {
+						font-size:10px;
+						line-height:12px;
+					}
+				}
+			}
+		}
+	}
+
+}
+@media (max-width: 767px) {
+	.nav__primary  {
+		display:none;
+	}
+}
+
+
+
+
+

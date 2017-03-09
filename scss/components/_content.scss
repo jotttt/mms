@@ -1,0 +1,110 @@
+/*========================================================
+                      Content styles
+=========================================================*/
+#page {
+  background: $content-bg;
+  overflow: hidden;
+}
+
+.information-information h3 {
+  text-transform: uppercase;
+}
+
+/*==================  Marked List  ======================*/
+.box.account ul, .box.affilate ul {
+	padding:0;
+	li {
+	padding: 0;
+	line-height:14px;
+	list-style-type: none;
+	padding: 8px 0;
+	font-weight: 300;
+	a {
+		position: relative;
+		text-transform:uppercase;
+		padding:0;
+		&:before {
+		  content: '\f054';
+		  margin-right: 6px;
+		  font-weight: 400;
+		  font-size: 10px;
+		  font-family: $fa;
+		  color: $primary;
+		  @include transition(.3s all ease);
+		}
+	}
+	a:hover, a:active, a:focus {
+		color: $secondary;
+		}
+	}
+}
+
+.site-map-page #content ul,
+.manufacturer-content div,
+ #content ul.list-unstyled {
+  margin: 0;
+  list-style-type: none;
+  a {
+	position: relative;
+	font-size:12px;
+	font-weight:300;
+	text-transform:uppercase;
+	&:before {
+	  content: '\f054';
+	  margin-right: 6px;
+	  font-weight: 400;
+	  font-size: 10px;
+	  font-family: $fa;
+	  color: $primary;
+	}
+  }
+}
+.site-map-page #content ul,
+#content ul.list-unstyled {
+	padding-left:0;
+	margin:0 0 20px;
+	ul{
+		padding-left:20px;
+		margin:10px 0 20px;
+	}
+}
+
+#content .product-info ul.list-unstyled a:before{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  aside {
+    margin-top: 20px;
+    .container{
+      padding: 0;
+      width: 100%;
+    }
+  }
+  #content [class*="col-sm-"] + [class*="col-sm-"] {
+    margin-top: 20px;
+  }
+   #content .box [class*="col-sm-"] + [class*="col-sm-"],
+   #content [class*="col-sm-"] + [class*="col-sm-"].product-grid
+   {
+    margin-top: 0;
+  }
+  aside .box.bestsellers .product-layout,
+  aside .box.latest .product-layout,
+  aside .box.specials .product-layout {
+		display: inline-block;
+		float: none;
+		width: 270px;
+		.product-thumb{
+			margin:0;
+			padding: 0 0 155px;
+			border:none;
+		}
+	}
+	aside .box.bestsellers,
+	aside .box.latest,
+	aside .box.specials {
+		text-align:center;
+	}
+
+}

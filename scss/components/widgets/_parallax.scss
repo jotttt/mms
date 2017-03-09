@@ -1,0 +1,37 @@
+/*==================   Parallax    ======================*/
+
+//--------------------------------------------------------------
+//                      Main styles
+//--------------------------------------------------------------
+.parallax > div {
+  background-position: center 0;
+  margin-left: 0 !important;
+  background-repeat: no-repeat;
+  width: auto!important;
+
+  .mobile &, .tablet & {
+    background-position: 50% 0 !important;
+    background-size: cover;
+  }
+  @media (min-width: 2050px) {
+    background-size: cover;
+  }
+}
+
+//--------------------------------------------------------------
+//                   Parallax Backgrounds
+//--------------------------------------------------------------
+.parallax1{
+}
+
+
+//--------------------------------------------------------------
+//                      Responsive Layout
+//--------------------------------------------------------------
+@media (max-width: 767px) {
+  .parallax > div{
+    background-position: center 0 !important;
+    background-size: cover;
+  }
+}
+

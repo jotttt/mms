@@ -1,0 +1,124 @@
+/*=================== Menu gadget ===================*/
+$menu-gadget-heading-bg: #fff;
+$menu-gadget-heading-color: $base-color;
+$menu-gadget-heading-font-size: 14px;
+$menu-gadget-heading-font-weight: 300;
+$menu-gadget-heading-font-family: $base-font-family;
+
+$menu-gadget-color: $base-color;
+$menu-gadget-bg: #fff;
+$menu-gadget-hover-color: $primary;
+$menu-gadget-hover-bg: #f5f5f5;
+$menu-gadget-font-size: 12px;
+
+$menu-gadget-border-color: #e5e5e5;
+$menu-gadget-hover-angle-color: #e5e5e5;
+
+.menu-icon {
+  position: relative;
+  color: $menu-gadget-heading-color;
+  cursor: pointer;
+  display: block;
+  font-weight: $menu-gadget-heading-font-weight;
+  font-size: $menu-gadget-heading-font-size;
+  font-family: $menu-gadget-heading-font-family ;
+  line-height: 30px;
+  padding: 10px 17px;
+  background: $menu-gadget-heading-bg;
+  &.active:after {
+    content: "\f078";
+  }
+  &:after {
+    float: right;
+    content: "\f077";
+    font-family: $fa;
+    margin-top: 0;
+    display: inline-block;
+    text-align: center;
+    width: 1.25em;
+    font-size: 13px;
+    color: $secondary;
+  }
+  &:hover:after{
+	color:$primary;
+  }
+}
+
+.menu-gadget {
+  display: none;
+  margin: 5px 0 25px;
+  font-weight:300;
+  text-transform:uppercase;
+}
+
+.menu-gadget .menu ul ul a {
+  padding-left: 60px !important;
+}
+
+.menu-gadget .menu {
+  padding: 0;
+  margin: 0;
+  ul {
+    width: auto;
+    padding: 0;
+    display: none;
+  }
+  li {
+    position: relative;
+    list-style-type: none;
+    i {
+      position: absolute;
+      display: block;
+      top: 0;
+      right: 0;
+	  line-height:38px;
+      height: 40px;
+      width: 50px;
+	  text-align:center;
+      font-size: 13px;
+      cursor: pointer;
+      color: #d9d9d9;
+      @include transition(.3s all ease);
+      &:hover{
+        color: $primary;
+      }
+    }
+    &.active > a, > a:hover{
+      background: $menu-gadget-hover-bg;
+      color: $menu-gadget-hover-color;
+    }
+  }
+  a {
+    padding: 10px 15px;
+    display: block;
+    border-top: 1px solid $menu-gadget-border-color;
+    color: $menu-gadget-color;
+    font-size: $menu-gadget-font-size;
+    background: $menu-gadget-bg;
+  }
+  li li {
+    a {
+      padding: 10px 15px 10px 45px;
+    }
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  li li li a {
+    padding: 10px 15px 10px 35px;
+  }
+}
+
+.menu-gadget .menu li i.fa-angle-up:before {
+  content: '\f106' !important
+}
+
+//--------------------------------------------------------------
+//                      Responsive
+//--------------------------------------------------------------
+
+@media (max-width: 767px) {
+	.menu-gadget {
+		display:block;
+	}
+}

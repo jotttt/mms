@@ -1,0 +1,177 @@
+/********** Swipe menu ******************/
+$swipe-bg: #fff;
+$swipe-border-color: #e5e5e5;
+$swipe-color: $base-color;
+$swipe-hover-color: $primary;
+$swipe-hover-background: #f5f5f5;
+
+.toprow-1 {
+  color: $swipe-color;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+  display: none;
+  background: #fff;
+  border-bottom: 1px solid #fbfbfb;
+}
+.toprow-1:after {
+  top:50px;
+  left:0;
+  height:8px;
+  width:100%;
+  position:absolute;
+  display:block;
+  content:'';
+  background: url(../image/footer-shadow.png) repeat-x center bottom;
+}
+
+.swipe-control {
+  border-right: 1px solid $swipe-border-color;
+  display: block;
+  height: 50px;
+  vertical-align: top;
+  text-align: center;
+  width: 64px;
+  z-index: 100;
+  i {
+    line-height: 50px;
+    font-size: 30px;
+    vertical-align: top;
+	color:$primary;
+    @include transition(.3s all ease);
+  }
+  &:hover i,&.active i{
+    color: $primary;
+  }
+}
+
+.swipe {
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 50px;
+  width: 237px;
+  z-index: 101;
+  bottom: 0;
+  left: -237px;
+  @include transition(.3s all ease);
+  .swipe-menu {
+    height: 100%;
+    overflow-y: auto;
+	text-transform:uppercase;
+	padding-bottom:30px;
+  }
+}
+
+.swipe ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+    a {
+      display: block;
+      padding: 10px 20px;
+      color: $swipe-color;
+      border-top: 1px solid $swipe-border-color;
+      line-height: 25px;
+      background: $swipe-bg;
+      i,&:before {
+        font-size: 20px;
+        color: $primary;
+        margin-right: 9px;
+        @include transition(.3s all ease);
+		vertical-align:top;
+      }
+      &:hover {
+        background-color: $swipe-hover-background;
+        color: $swipe-hover-color;
+        i, &:before{
+          color: $swipe-hover-color;
+        }
+      }
+    }
+  }
+}
+
+.swipe .foot li a:before {
+  content: "\f05a";
+  font-family: $fa;
+  display: inline-block;
+}
+
+
+.ind {
+  .swipe {
+    display: block;
+    left: 0;
+  }
+  #page {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 88;
+  }
+  .shadow {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 88; }
+}
+
+
+.swipe .foot {
+  li + li a:before {
+    content: "\f0d1";
+  }
+  li + li + li a:before {
+    content: "\f06a";
+  }
+  li + li + li + li a:before {
+    content: "\f085";
+  }
+}
+
+.swipe .foot.foot-1 {
+  li a:before {
+    content: "\f0ac";
+  }
+  li + li a:before {
+    content: "\f079";
+  }
+  li + li + li a:before {
+    content: "\f0e8";
+  }
+}
+
+.swipe .foot.foot-2 {
+  li a:before {
+    content: "\f02c";
+  }
+  li + li a:before {
+    content: "\f06b";
+  }
+  li + li + li a:before {
+    content: "\f0c0";
+  }
+  li + li + li + li a:before {
+    content: "\f0a3"; }
+}
+
+.swipe .foot.foot-3 {
+  li a:before {
+    content: "\f0cb";
+  }
+  li + li a:before {
+    content: "\f003";
+  }
+}
+
+@media (max-width: 767px) {
+  .toprow-1 {
+    display: block;
+  }
+}

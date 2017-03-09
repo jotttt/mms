@@ -1,0 +1,406 @@
+/*========================================================
+                   Bootstrap Reset
+=========================================================*/
+.container > .alert,
+.breadcrumb + .alert {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.alert button.close {
+  vertical-align: top;
+  margin-top: -3px;
+}
+
+.alert {
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px 10px 13px;
+  border-radius: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
+}
+
+.alert i {
+  font-size: 21px;
+}
+
+.alert a:hover {
+  text-decoration: none;
+}
+
+.alert a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.alert-success {
+  background-color: #55C65E;
+  border: 1px solid #48B151;
+}
+
+.alert-danger {
+  background-color: #F3515C;
+  border-color: #D4323D;
+}
+
+.alert-info {
+  background-color: #FE9126;
+  border-color: #E4752B;
+}
+
+.modal-header .close:hover {
+  color: $primary;
+}
+
+.modal-header .close {
+  color: #CCC
+}
+
+.close {
+  color: #FFF;
+  opacity: 1
+}
+
+.pagination {
+  border-radius: 0
+}
+.pagination > li > a, .pagination > li > span {
+    border-color: #ececec;
+	margin-left: 2px;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span, .pagination > li:first-child > a, .pagination > li:first-child > span {
+  border-radius: 0
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: $primary;
+  border-color: $primary;
+  color: #FFF;
+}
+
+.pagination > li > a, .pagination > li > span {
+  color: #2d2e42;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background: $primary;
+  border-color: $primary;
+  color: #FFF;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background: none;
+  text-decoration: none;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  box-shadow: none;
+  outline: none
+}
+
+.table-bordered {
+  border-radius: 0
+}
+
+.table thead td {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: $base-color !important;
+  font-size: 13px;
+  background-color: #fff;
+}
+.table{
+	text-transform:uppercase;
+	b, strong{
+		color:$base-color;
+		text-transform:uppercase;
+		font-weight:normal;
+	}
+}
+
+.table th,
+.table td {
+  padding: 20px;
+  border-color: #D7D7D7;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.block-compare .table th, .block-compare .table td {
+  padding: 7px
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  font-size: 13px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border-radius: 0;
+  box-shadow: none
+}
+
+.table-bordered thead:first-child tr:first-child > th:last-child,
+.table-bordered tbody:first-child tr:first-child > td:last-child,
+.table-bordered tbody:first-child tr:first-child > th:last-child {
+  border-radius: 0
+}
+
+.table-bordered thead:first-child tr:first-child > th:first-child,
+.table-bordered tbody:first-child tr:first-child > td:first-child,
+.table-bordered tbody:first-child tr:first-child > th:first-child {
+  border-radius: 0;
+}
+
+.table-bordered thead:last-child tr:last-child > th:first-child,
+.table-bordered tbody:last-child tr:last-child > td:first-child,
+.table-bordered tbody:last-child tr:last-child > th:first-child,
+.table-bordered tfoot:last-child tr:last-child > td:first-child,
+.table-bordered tfoot:last-child tr:last-child > th:first-child {
+  border-radius: 0
+}
+
+.table-bordered {
+  border-color: #D7D7D7
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+  border-color: $border-color;
+}
+.table > tbody + tbody{
+  border-top: none;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 13px;
+  color: #393939;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 10px;
+  }
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  resize: none
+}
+
+label {
+  cursor: default
+}
+
+.close:hover,
+.close:focus {
+  opacity: 1
+}
+
+.panel-group .panel, .panel {
+  border-radius: 0
+}
+
+.panel-heading {
+  padding: 20px;
+}
+.panel-default > .panel-heading {
+    background-color: #fff;
+    border-color: #e5e5e5;
+}
+
+a.addthis_button_tweet {
+	width:85px !important;
+}
+.addthis_button_facebook_like
+{
+	line-height:20px;
+}
+html[lang="de"] a.addthis_button_tweet {
+	width:97px !important;
+}
+html[lang="ru"] a.addthis_button_tweet {
+	width:101px !important;
+}
+
+.fancybox-close, .fancybox-prev span, .fancybox-next span {
+  opacity: 0.8
+}
+
+.fancybox-close:hover, .fancybox-prev span:hover, .fancybox-next span:hover {
+  opacity: 1
+}
+
+.text-danger {
+  color: red;
+  font-weight: bold;
+  font-size: 100%;
+  font-size: 16px;
+}
+
+.buttons input[type="checkbox"]{
+  position: relative;
+  top: 2px;
+}
+
+input[type="checkbox"], input[type="checkbox"]:focus, input[type="radio"],input[type="radio"]:focus{
+  outline: 0;
+}
+
+.tooltip{
+  z-index: 1050;
+}
+.fancybox-overlay-fixed {
+    z-index: 1002;
+}
+.fancybox-opened {
+    z-index: 1003;
+
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+	background:none;
+}
+
+/*==================================================*/
+
+
+.tooltip{
+	pointer-events:none;
+}
+
+@media(max-width:767px){
+	.table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+		white-space: normal;
+	}
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: $primary;
+    border-color: $primary;
+    z-index: 1;
+}
+
+.fancybox-skin {
+	color:$base-color;
+}
+.quickview_image img{
+	background:#f5f5f5;
+}
+.owl-carousel .owl-buttons div {
+    color: $secondary;
+	&:hover{
+		color:$primary;
+	}
+	}
+.bootstrap-datetimepicker-widget .picker-switch, .bootstrap-datetimepicker-widget .timepicker-picker .btn {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.bootstrap-datetimepicker-widget .datepicker .day.active:hover,
+.bootstrap-datetimepicker-widget .datepicker .day.active {
+    color: #fff;
+}
+.panel strong{
+	text-transform:uppercase;
+	font-weight:normal;
+	color:$base-color;
+}
+/*================== tooltip ==================*/
+.tooltip-inner {
+	background-color: $base-color;
+}
+.tooltip.top .tooltip-arrow {
+	border-top-color: $base-color;
+}
+.tooltip.top-left .tooltip-arrow {
+	border-top-color: $base-color;
+}
+.tooltip.top-right .tooltip-arrow {
+	border-top-color: $base-color;
+}
+.tooltip.right .tooltip-arrow {
+	border-right-color: $base-color;
+}
+.tooltip.left .tooltip-arrow {
+	border-left-color: $base-color;
+}
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: $base-color;
+}
+.tooltip.bottom-left .tooltip-arrow {
+	border-bottom-color: $base-color;
+}
+.tooltip.bottom-right .tooltip-arrow {
+	border-bottom-color: $base-color;
+}
+/*=============================================*/
+
+input#input-voucher,
+input#input-coupon {
+  display: inline-block;
+  width: 60%;
+  margin-right: 5px;
+}
+@media (max-width: 530px) {
+  .panel-group .panel {
+    input#input-voucher,
+    input#input-coupon {
+      width: 100%;
+    }
+    span {
+      display: block;
+      margin-top: 5px;
+    }
+  }
+}
+

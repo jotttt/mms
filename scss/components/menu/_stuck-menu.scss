@@ -1,0 +1,13 @@
+/*==================  Stuck menu  ======================*/
+
+$stuck-bc: #e1e2e2;
+
+.isStuck {
+  z-index: 1001;
+}
+
+@media only screen and (max-width: 991px) {
+  .isStuck {
+    display: none !important;
+  }
+}

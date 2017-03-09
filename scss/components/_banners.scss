@@ -1,0 +1,30 @@
+/*========================================================
+                      Banners
+=========================================================*/
+.banners > div {
+  .banner-box {
+    position: relative;
+    > a {
+      display: block;
+    }
+  }
+}
+
+.banners > div .s-desc {
+  position: absolute;
+  top:0;
+  font: 300 37px/55px $base-font-family;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.banner-1 {
+}
+.banner-1 .s-desc {
+}
+.banner-1 .banner-box a:hover{
+}
+
+/*========================================================
+                   Responsive Banners
+=========================================================*/

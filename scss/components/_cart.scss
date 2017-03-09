@@ -1,0 +1,253 @@
+/*================ Box Cart  ===============*/
+
+.box-cart {
+  position: relative;
+  margin:0 0 10px 10px;
+  .btn-danger {
+    border: 0;
+    padding: 0;
+    background: none;
+    font-size: 13px;
+  }
+  .btn {
+    margin-bottom: 7px;
+  }
+}
+
+//LONG
+#cart-total{
+  display: none;
+}
+//SHORT
+#cart-total2{
+	position:absolute;
+	display:inline-block;
+	top:12px;
+	right:8px;
+	width:19px;
+	height:19px;
+	font-size:12px;
+	line-height:19px;
+	text-align:center;
+	color:#fff;
+	background:#2d2e42;
+	@include border-radius(50%);
+}
+//MIX
+.cart-total3{
+  display: none;
+}
+
+/*================  Cart  ===============*/
+.cart {
+  position: relative;
+  > button {
+    @include reset-button();
+	line-height:56px;
+	display:inline-block;
+	height:56px;
+	width:56px;
+	text-align:center;
+	position:relative;
+	 strong {
+		display:none;
+	 }
+	 i {
+		display:inline-block;
+		font-size:25px;
+		line-height:56px;
+		color:#fff;
+		vertical-align:top;
+	 }
+  }
+  > button:hover,
+  &.active > button {
+	i {
+		color:$primary;
+	}
+	background:#fff;
+	@include box-shadow-litt;
+  }
+}
+
+/*================  Cart DropDown ===============*/
+
+
+.cart {
+	td {
+	  font-size: 12px;
+	  .name{
+		  a {
+			font-size: 12px;
+		  }
+		  margin-bottom:5px;
+	  }
+	  strong {
+		font-size: 12px;
+		font-weight:normal;
+		text-transform:uppercase;
+	  }
+	}
+	.total tr {
+		td {
+		  border: 0;
+		  padding: 2px;
+		  font-size: 14px;
+		  font-weight: 300;
+		  color: $base-color;
+		  &.price-tx{
+			color:$primary;
+			font-size: 14px;
+		  }
+		}
+		&.last {
+			td {
+				strong{
+					font-size: 20px;
+					font-weight:300;
+				}
+				&.price-tx{
+					font-size: 20px;
+				  }
+			}
+		}
+	}
+	.toggle_cont li .name a{
+		font-size:12px;
+		line-height:14px;
+	}
+	.price-cart {
+		font-size:16px;
+		color: $primary;
+		font-weight: 300;
+	}
+	.toggle_cont .table{
+		> tbody > tr > td {
+			padding:10px 5px 7px;
+		}
+		&.total > tbody > tr > td {
+			padding:5px 5px;
+		}
+	}
+	.toggle_cont li .table > tbody > tr:first-child > td {
+		border-top:1px solid #e5e5e5;
+	}
+	.toggle_cont li .table > tbody > tr > td {
+		border-top-color:#e5e5e5;
+	}
+	.toggle_cont li:first-child .table > tbody > tr:first-child > td {
+		border:none;
+	}
+	.toggle_cont {
+	height:auto !important;
+	z-index: 1001;
+	min-width: 260px;
+	list-style: outside none none;
+	  img {
+		max-width: 50px
+	  }
+	  tr .text-center button{
+		@include box-shadow(none);
+	  }
+	  table {
+		margin-bottom: 5px;
+	  }
+	  li {
+		> div {
+		  padding: 0;
+		}
+		p {
+		  margin: 20px 0;
+		}
+	  }
+	}
+	button.btn-danger {
+		text-align:center;
+		background:#f5f5f5;
+		i{
+			color:$secondary;
+			min-width:20px;
+		}
+		&:hover, &:focus, &:active {
+			background:#f5f5f5;
+			i{
+				color:$danger-color;
+			}
+		}
+	}
+	.toggle_cont li{
+		a.btn-default{
+			color:$secondary;
+			font-weight:300;
+			background:#fff;
+			border:1px solid #ececec;
+			&:hover, &:active, &:focus {
+				color:$base-color;
+				background:#f5f7f9;
+				border-color:#f5f7f9;
+			}
+		}
+		a.btn-primary{
+			font-weight:300;
+			color:#fff;
+			background:$primary;
+			&:hover, &:active, &:focus {
+				color:#fff;
+				background:darken($primary,10%);
+			}
+		}
+	}
+}
+
+.cart .toggle_cont {
+  .name a:hover {
+    color: $primary;
+    background: transparent;
+  }
+}
+
+.cart .table.total tr:nth-child(4) td strong,
+.cart .table.total tr:nth-child(4) td {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.cart-q {
+  max-width: 100px;
+  float: none;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.shoping_cart td {
+  vertical-align: middle !important;
+}
+
+@media (max-width: 767px) {
+.box-cart{
+	z-index:1002;
+   .cart {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    margin: 0;
+    z-index: 91;
+    border-left: none;
+    > button {
+		height:50px;
+		line-height:50px;
+		i{
+			color:$primary;
+		}
+		border-left:1px solid #e5e5e5;
+    }
+	> button:hover, &.active > button {
+		@include box-shadow(none);
+	}
+    .toggle_cont {
+      max-height: 300px;
+      overflow: auto;
+    }
+  }}
+}

@@ -1,0 +1,344 @@
+/*========================================================
+                      Header styles
+=========================================================*/
+$top-links-bg: $header-bg;
+
+.header {
+	background: url(../image/header-bg.png) repeat-x center bottom $header-bg;
+	padding:30px 0 0 0;
+	.toggle, .button-account > span {
+			@include transition(.3s all ease);
+		}
+	.button-account, .button-setting {
+		display:inline-block;
+		position:relative;
+		margin:0 0 10px 10px;
+		float:right;
+		 .toggle {
+			display:inline-block;
+			cursor:pointer;
+			position:relative;
+			z-index:1;
+			color:#fff;
+			font-size:25px;
+			line-height:56px;
+			height:56px;
+			width:56px;
+			text-align:center;
+			&:hover {
+				color:$primary;
+				background:#fff;
+				@include box-shadow-litt;
+			}
+		}
+
+		&.open .toggle_cont, &.active .toggle{
+			color:$primary;
+			background:#fff;
+			@include box-shadow-litt;
+		}
+	}
+	.button-account{
+		div.toggle_cont {
+		padding: 18px 30px 30px !important;
+		li {
+			padding: 7px 0;
+			a, a:visited{
+				color:$base-color;
+			}
+		}
+		}
+	}
+	.button-setting, .button-account {
+		.toggle_cont {
+			height:auto !important;
+			.dropdown-toggle {
+				color:$base-color;
+				@include box-shadow(none);
+			}
+		}
+	}
+
+  .box-cart {
+	float:right;
+  }
+
+  .logo {
+    float: left;
+	margin:6px 0 10px;
+  }
+  .search {
+	float:right;
+  }
+
+  .button-account .toggle_cont,
+  .box-cart .dropdown-menu{
+	padding:15px 20px;
+    background: #fff;
+	border:none;
+	margin-top:0;
+	min-width: 237px;
+	font-weight:300;
+	@include box-shadow-litt;
+	ul{
+		margin:0;
+	}
+    li {
+	font-size:14px;
+	line-height:16px;
+	font-weight:300;
+	padding:5px 0;
+		a {
+		font-size:14px;
+		text-transform:uppercase;
+			&:hover, &:active, &:focus {
+				color: $primary;
+				background:none;
+		  }
+		}
+	}
+  }
+
+  > .container .col-sm-12 {
+    min-height: 0;
+  }
+	.box-currency, .box-language{
+		.dropdown-menu {
+			height:0;
+			display:block;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			@include transition(.3s all ease);
+			li a, li button {
+				font-weight:300;
+				color:$base-color;
+				&:visited{
+					color:$base-color;
+				}
+				&:hover, &:active, &:focus {
+					color:$primary;
+				}
+			}
+		}
+	}
+	.box-currency, .box-language{
+		.open > .dropdown-menu {
+			min-height:100%;
+			height:65px;
+		}
+	}
+	.box-cart .dropdown-menu {
+			padding-left:16px;
+			padding-right:16px;
+	}
+}
+
+/*==================  toggle ===========================*/
+
+.toggle-wrap {
+	font-weight:300;
+	.toggle{
+	}
+	.toggle_cont{
+		display:none !important;
+		background:#fff;
+		position:absolute;
+		top:100%;
+		right:0;
+		padding:20px 20px 22px 20px !important;
+		min-width:237px;
+		@include box-shadow-litt;
+		z-index:1000;
+	}
+	&.active .toggle_cont{
+		display:block !important;
+	}
+}
+.header .button-setting .toggle_cont {
+    padding-left:30px !important;
+    padding-right:30px !important;
+}
+
+/*===================   Top Panel   ===================*/
+.top_panel {
+  background: $top-links-bg;
+  @include clearfix;
+}
+
+/*================   Top Links style   ===============*/
+$top-links-item-margin: 20px;
+
+.nav {
+  text-align: center;
+  > ul {
+    padding: 0;
+    margin: 0;
+    li {
+      padding: 0;
+    }
+    > li + li {
+      margin-left: $top-links-item-margin;
+    }
+  }
+
+  a {
+    font-size: 13px;
+
+    i{
+      display: none;
+    }
+
+    &:hover, .active {
+      color: $primary;
+    }
+  }
+
+  i {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+/*================  CURRENCY AND LANGUAGE BOXES ===============*/
+.currency-select {
+  text-align: left;
+}
+
+.box-language .dropdown-toggle,
+.box-currency .dropdown-toggle {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height:14px;
+	text-transform: uppercase;
+	cursor: pointer;
+	@include transition(.3s all ease);
+	padding:6px 0;
+	text-align:left;
+
+	&:after {
+		display: inline-block;
+		content: '\f107';
+		float:right;
+		margin-left: 8px;
+		font-size: 12px;
+		font-weight: 400;
+		color:#c3c3c3;
+		font-family: $fa;
+	}
+	&:hover, &:focus, &:active,
+	&:hover:after, &:focus:after, &:active:after
+	{
+		color:$primary;
+	}
+}
+
+.box-language,
+.box-currency {
+	.btn-group{
+		width:100%;
+	}
+	.btn-group.open, .btn-group:hover {
+		.dropdown-toggle{
+			color:$primary;
+		}
+	}
+	.dropdown-menu {
+		position:relative;
+		background:none;
+		border:none;
+		font-weight:300;
+		@include box-shadow(0 0 0 transparent);
+		li {
+			padding:2px 0;
+			a, button{
+				display:inline-block;
+				padding:0;
+				&:hover, &:focus, &:active {
+					color:$secondary;
+					background:none;
+				}
+			}
+		}
+	}
+}
+
+/*================  DropDown Menu item ===============*/
+
+.box-currency .dropdown-menu button {
+	@include reset-button();
+	font-size: 12px;
+	line-height:14px;
+	color:$base-color;
+	text-transform: uppercase;
+}
+
+@import "../components/menu/_swipe-menu";
+/*========================================================
+               Responsive Header styles
+=========================================================*/
+@media(min-width: 768px) and (max-width: 1199px) {
+  .nav a {
+    span {
+      display: none;
+    }
+    i{
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-top: 50px;
+    .search {
+      float: none;
+    }
+    .box-currency{
+      margin-right: 0;
+      padding: 0;
+    }
+    .logo {
+      float: none;
+      text-align: center;
+      margin-top: 35px;
+	  margin-bottom:15px;
+      img {
+        display: inline-block;
+      }
+    }
+    .nav{
+      margin-top: 0;
+      ul {
+        display: none;
+      }
+    }
+
+    .box-right{
+      @include clearfix;
+      margin-top: 0;
+    }
+    .top_panel {
+      padding: 0;
+    }
+
+    .nav__primary {
+      margin-top: 15px;
+      background: none;
+    }
+	> .container > .pull-right {
+		float:none;
+		width:100%;
+	}
+  }
+
+}
+
+@media(max-width:420px) {
+	.header .button-account,
+	.header .button-setting {
+		margin-left:1px;
+	}
+}
+
