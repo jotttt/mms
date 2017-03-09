@@ -32,6 +32,12 @@ footer {
   }
 	.logo{
 		margin:14px 0 44px;
+
+        a {
+            img {
+                height: 40px;
+            }
+        }
 	}
 	.social {
 		text-align:center;
@@ -64,13 +70,11 @@ footer {
   display: none;
 }
 .powered {
-	display:inline-block;
+	display:block;
 	vertical-align:top;
+    text-align: center;
+    margin: 0 auto;
 	margin-top:7px;
-}
-.site-logo {
-	display:none;
-	float:right;
 }
 .copyright {
   margin-top: 38px;

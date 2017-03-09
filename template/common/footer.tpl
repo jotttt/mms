@@ -74,7 +74,6 @@
 		<div class="container">
 			<hr>
 			<span class="powered"><?php echo $powered; ?><!-- [[%FOOTER_LINK]] --></span>
-			<a class="site-logo" href="http://www.templatemonster.com/" rel="nofollow" target="_blank"><img src="image/catalog/site-logo.png" alt="logo"></a>
 		</div>
 	</div>
 </footer>

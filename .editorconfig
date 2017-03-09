@@ -1,0 +1,27 @@
+; This file is for unifying the coding style for different editors and IDEs.
+; More information at http://editorconfig.org
+root = true
+
+; Unix-style newlines
+[*]
+end_of_line = LF
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Set default charset
+[*.{js,py,html}]
+charset = utf-8
+
+[*.php]
+indent_style = space
+indent_size = 4
+
+# 4 space indentation
+[*.{js,css,less,scss}]
+indent_style = space
+indent_size = 4
+
+# 2 space indentation
+[*.html]
+indent_style = space
+indent_size = 2

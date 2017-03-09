@@ -20,6 +20,20 @@
 <?php if ($icon) { ?>
 <link href="<?php echo $icon; ?>" rel="icon" />
 <?php } ?>
+
+<!--FAVICONS-->
+<link rel="apple-touch-icon" sizes="180x180" href="image/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="image/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="image/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="image/favicons/manifest.json">
+<link rel="mask-icon" href="image/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="image/favicons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="MM E-pood">
+<meta name="application-name" content="MM E-pood">
+<meta name="msapplication-config" content="image/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!--end favicons-->
+
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
