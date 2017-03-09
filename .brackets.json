@@ -1,0 +1,18 @@
+{
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../stylesheet/",
+                "output": "stylesheet.css",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "compressed"
+            },
+            "bigeyex.bracketsSFTPUpload.C:/Users/jotttt/Documents/webdev_private/mms/theme574/|changed_files": {
+                "C:/Users/jotttt/Documents/webdev_private/mms/theme574/.brackets.json": 1,
+                "C:/Users/jotttt/Documents/webdev_private/mms/theme574/scss/style.scss": 1
+            }
+        }
+    }
+}
