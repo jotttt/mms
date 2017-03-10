@@ -2,8 +2,9 @@
                       Content styles
 =========================================================*/
 #page {
-  background: $content-bg;
-  overflow: hidden;
+  //background: $content-bg;
+@include mm-pattern;
+  //overflow: hidden;
 }
 
 .information-information h3 {
