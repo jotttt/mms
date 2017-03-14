@@ -43,10 +43,11 @@
 				display:block;
 				top:50%;
 				width:100%;
-				color:$base-color;
+				color:$yellow;
 				.tx{
 					font: 300 37px/55px $base-font-family;
 					letter-spacing:5px;
+                    background: rgba(39, 39, 39, 0.8);
 				}
 				text-transform:uppercase;
 			}
@@ -54,9 +55,9 @@
 		.banner-1 {
 			a {
 				.desc {
-					margin-top:-108px;
+					margin-top:-50px;
 					right:0;
-					width:78.2%;
+					width:100%;
 					.tx{
 						font-size:54px;
 						line-height:65px;
@@ -130,7 +131,7 @@
 						line-height:70px;
 						letter-spacing:12px;
 						color:#fff;
-						background:rgba(245,98,86,.8)
+						background:rgba(0, 91, 170, .8);
 					}
 				}
 				&:hover, &:active, &:focus {
@@ -148,7 +149,7 @@
 				.desc {
 					margin-top:-102px;
 					.tx{
-						color:#fff;
+						color: $text-color;
 						font-size:64px;
 						line-height:68px;
 						letter-spacing:18px;

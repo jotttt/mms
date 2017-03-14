@@ -6,11 +6,10 @@
   margin-bottom: 18px;
 }
 
-
 /*=================== Product Image ===================*/
 .box, .product-grid{
 	.product-thumb {
-		background:#f5f5f5;
+		background: white;
 		.image {
 		  position: relative;
 		  text-align: center;
@@ -26,7 +25,7 @@
 		  }
 		}
 		@include box-shadow(0 0 10px transparent);
-		border:20px solid #f5f5f5;
+		border:20px solid white;
 		border-width:23px 20px 20px 20px;
 		border-bottom:none;
 		margin:-23px -20px 0 -20px;
@@ -138,8 +137,8 @@
 		font-size: 300 12px/14px $base-font-family;
 		text-transform:uppercase;
 		display: inline-block;
-		color:#fff;
-		background-color: $base-color;
+		color:$base-color;
+		background-color:$yellow;
 		min-width:54px;
 		padding: 1px 5px 2px;
 		text-align:center;

@@ -7,7 +7,7 @@
                 "output": "stylesheet.css",
                 "imagePath": null,
                 "sourceComments": "map",
-                "outputStyle": "compressed"
+                "outputStyle": "nested"
             },
             "bigeyex.bracketsSFTPUpload.C:/Users/jotttt/Documents/webdev_private/mms/theme574/|changed_files": {
                 "C:/Users/jotttt/Documents/webdev_private/mms/theme574/.brackets.json": 1,
