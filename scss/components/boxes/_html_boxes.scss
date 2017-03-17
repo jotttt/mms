@@ -47,7 +47,6 @@
 				.tx{
 					font: 300 37px/55px $base-font-family;
 					letter-spacing:5px;
-                    background: rgba(39, 39, 39, 0.8);
 				}
 				text-transform:uppercase;
 			}
@@ -62,6 +61,7 @@
 						font-size:54px;
 						line-height:65px;
 						letter-spacing:15px;
+                        background: rgba(39, 39, 39, 0.4);
 					}
 					.button{
 						display:inline-block;
@@ -371,6 +371,16 @@
 				padding: 14px 26px;
 			}
 		}
+        .row .banner-2 a .desc {
+			.tx {
+				font-size: 41px;
+				letter-spacing: 13px;
+				line-height: 48px;
+			}
+			.button {
+				margin-top: 14px;
+			}
+		}
 	}
 }
 
@@ -386,27 +396,6 @@
 		.button {
 			margin-top: 14px;
 			padding: 11px 21px;
-		}
-	}
-}
-
-@media(max-width:480px) {
-
-	.box_html.banners .row {
-		.banner-2 a .desc {
-			margin-top: -66px;
-			.tx {
-				font-size: 41px;
-				letter-spacing: 13px;
-				line-height: 48px;
-			}
-			.button {
-				margin-top: 14px;
-			}
-		}
-		.banner-3 a .desc .tx {
-			font-size: 35px;
-			letter-spacing:6px;
 		}
 	}
 }
@@ -428,6 +417,32 @@
 		}
 	}
 }
+
+@media(max-width:480px) {
+
+	.box_html.banners .row {
+		.banner-2 a .desc {
+			margin-top: -66px;
+			.tx {
+				font-size: 32px;
+				letter-spacing: 6px;
+				line-height: 36px;
+			}
+			.button {
+				margin-top: 14px;
+			}
+		}
+		.banner-3 a .desc .tx {
+			font-size: 35px;
+			letter-spacing:6px;
+		}
+        .banner-4 a .desc .tx {
+			font-size: 48px;
+			letter-spacing:6px;
+		}
+	}
+}
+
 @media(max-width:400px) {
 
 	.box_html.banners .row {
@@ -437,6 +452,17 @@
 				font-size: 18px;
 				line-height: 21px;
 				letter-spacing:3px;
+			}
+		}
+        .banner-2 a .desc {
+			margin-top: -66px;
+			.tx {
+				font-size: 24px;
+				letter-spacing: 5px;
+				line-height: 28px;
+			}
+			.button {
+				margin-top: 14px;
 			}
 		}
 		.banner-3 a .desc{

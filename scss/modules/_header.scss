@@ -4,8 +4,10 @@ Header styles
 $top-links-bg: $header-bg;
 
 .header {
-    background: url(../image/header-bg.png) repeat-x center bottom $header-bg;
+    background: $header-bg;
     padding:30px 0 0 0;
+    margin-bottom: 15px;
+
     .toggle, .button-account > span {
         @include transition(.3s all ease);
     }

@@ -7,7 +7,6 @@
 /*========================================================
                       Main Styles
 =========================================================*/
-$border-color: #e5e5e5;
 @import "components/_bootstrap_reset.scss";
 body {
   font: $base-font;
@@ -1069,7 +1068,7 @@ img.alignleft {
 
 .sm_hr {
   height: 1px;
-  background-color: #e5e5e5;
+  background-color: $border-color;
   margin: 50px 0
 }
 
@@ -1175,9 +1174,9 @@ img.alignleft {
   position: relative;
   margin-bottom: 30px;
   a{
-	color:$secondary;
+	color:$base-color;
 	&:hover, &:focus, &:active {
-		color:$base-color;
+		color:$blue;
 	}
   }
 }
