@@ -6,19 +6,20 @@ footer {
 	margin-top:27px;
 	padding-top: 40px;
 	background: url(../image/footer-shadow.png) repeat-x center top;
-    background-color: $yellow;
+    background-color: $blue;
 	h5{
 		font-size: 18px;
+        color: white;
 		line-height: 22px;
 		margin: 4px 0 17px 0;
 	}
   a {
-	color:$base-color;
+	color: white;
 		&:visited{
-			color:$base-color;
+			color: white;
 		}
 	  &:hover, &:active, &:focus {
-		color: $primary;
+		color: #000;
 	  }
   }
   ul {
@@ -52,12 +53,16 @@ footer {
 				margin-left:0;
 			}
 			a {
-				color: $text-color;
+				color: white;
+                //border: 1px solid transparent;
+                //padding: 3px;
+
 				&:visited {
-					color:#acafb2;
+					color: white;
 				}
 				&:hover, &:active, &:focus {
-					color:$primary;
+					color:#000;
+                    //border: 1px solid white;
 				}
 			}
 		}
@@ -72,6 +77,7 @@ footer {
 }
 .powered {
 	display:block;
+    color: white;
 	vertical-align:top;
     text-align: center;
     margin: 0 auto;
@@ -91,7 +97,7 @@ footer {
 
 	hr{
 		margin:20px 0 17px;
-		border-top: 1px solid $border-color;
+		border-top: 1px solid white;
 	}
   }
 }

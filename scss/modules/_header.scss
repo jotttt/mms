@@ -4,7 +4,7 @@ Header styles
 $top-links-bg: $header-bg;
 
 .header {
-    background: $header-bg;
+    background: transparent;
     padding:30px 0 0 0;
     margin-bottom: 15px;
 
@@ -21,22 +21,22 @@ $top-links-bg: $header-bg;
             cursor:pointer;
             position:relative;
             z-index:1;
-            color:#fff;
+            color:#000;
             font-size:25px;
             line-height:56px;
             height:56px;
             width:56px;
             text-align:center;
             &:hover {
-                color:$primary;
-                background:#fff;
+                color: black;
+                background: white;
                 @include box-shadow-litt;
             }
         }
 
         &.open .toggle_cont, &.active .toggle{
             color:$primary;
-            background:#fff;
+            background:white;
             @include box-shadow-litt;
         }
     }
@@ -82,7 +82,7 @@ $top-links-bg: $header-bg;
     .button-account .toggle_cont,
     .box-cart .dropdown-menu{
         padding:15px 20px;
-        background: #fff;
+        background: white;
         border:none;
         margin-top:0;
         min-width: 237px;
@@ -100,7 +100,7 @@ $top-links-bg: $header-bg;
                 font-size:14px;
                 text-transform:uppercase;
                 &:hover, &:active, &:focus {
-                    color: $primary;
+                    color: black;
                     background:none;
                 }
             }
@@ -125,7 +125,7 @@ $top-links-bg: $header-bg;
                     color:$base-color;
                 }
                 &:hover, &:active, &:focus {
-                    color:$primary;
+                    color:black;
                 }
             }
         }
@@ -150,7 +150,7 @@ $top-links-bg: $header-bg;
     }
     .toggle_cont{
         display:none !important;
-        background:#fff;
+        background:white;
         position:absolute;
         top:100%;
         right:0;
@@ -198,7 +198,7 @@ $top-links-item-margin: 20px;
         }
 
         &:hover, .active {
-            color: $primary;
+            color: black;
         }
     }
 
@@ -238,7 +238,7 @@ $top-links-item-margin: 20px;
     &:hover, &:focus, &:active,
     &:hover:after, &:focus:after, &:active:after
     {
-        color:$primary;
+        color:black;
     }
 }
 
@@ -249,7 +249,7 @@ $top-links-item-margin: 20px;
     }
     .btn-group.open, .btn-group:hover {
         .dropdown-toggle{
-            color:$primary;
+            color:black;
         }
     }
     .dropdown-menu {

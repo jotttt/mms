@@ -3,7 +3,7 @@ $form-bg: transparent;
 $form-width: 113px;
 $form-height: 20px;
 $form-border: none;
-$form-color: #fff;
+$form-color: #000;
 
 $form-submit-icon: '\f002';
 $form-submit-color: $primary;
@@ -49,7 +49,7 @@ $form-submit-hover: #2d2e42;
   button {
     @include reset-button;
     @include transition(.3s all ease);
-    color: #fff;
+    color: #000;
 	line-height:20px;
 	i{
 		font-size:25px;
@@ -81,7 +81,7 @@ $form-submit-hover: #2d2e42;
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #fff;
+  background-color: #000;
   @include box-shadow-litt;
   list-style-type: none;
   z-index: 12;
@@ -106,7 +106,7 @@ $form-submit-hover: #2d2e42;
     &:hover,&.highlighted{
       background-color: $primary;
       a{
-        color: #FFF;
+        color: #000;
       }
     }
 
