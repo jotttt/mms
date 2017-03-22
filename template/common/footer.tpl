@@ -8,7 +8,7 @@
 	<?php } ?>
   <div class="container">
 	<div class="row">
-		<div class="col-sm-3">
+		<div class="col-sm-7">
 			<?php if ($logo) { ?>
 			<div class="logo">
 			<a href="<?php echo $home; ?>"><img src="image/catalog/footer-logo.png" alt="" class="img-responsive" /></a>
@@ -28,6 +28,7 @@
 			<div class="footer_box">
 				<h5><?php echo $text_information; ?></h5>
 				<ul class="list-unstyled">
+				<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
 				<?php foreach ($informations as $information) { ?>
 				<li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
 				<?php } ?>
@@ -35,11 +36,11 @@
 			</div>
 			<?php } ?>
 		</div>
-		<div class="col-sm-2 cast">
+		<!--<div class="col-sm-2 cast">
 			<div class="footer_box">
 				<h5><?php echo $text_service; ?></h5>
 				<ul class="list-unstyled">
-				<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+
 				<li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
 				<li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
 				</ul>
@@ -55,7 +56,7 @@
 				<li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
 				</ul>
 			</div>
-		</div>
+		</div>-->
 		<div class="col-sm-2">
 			<div class="footer_box">
 				<h5><?php echo $text_account; ?></h5>
