@@ -3386,76 +3386,87 @@ aside .box .product-layout {
       opacity: 1; }
 
 /*========================================================
-                         Footer
+Footer
 =========================================================*/
 /* line 5, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
 footer {
   margin-top: 27px;
   padding-top: 40px;
-  background: url(../image/footer-shadow.png) repeat-x center top;
   background-color: #005baa; }
-  /* line 10, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 9, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer h5 {
     font-size: 18px;
     color: white;
     line-height: 22px;
     margin: 4px 0 17px 0; }
-  /* line 16, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 15, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer a {
     color: white; }
-    /* line 18, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 17, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer a:visited {
       color: white; }
-    /* line 21, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 20, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer a:hover, footer a:active, footer a:focus {
-      color: #000; }
+      color: white;
+      border-bottom: 1px solid white; }
   /* line 25, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  footer a.logolink {
+    color: transparent; }
+    /* line 27, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    footer a.logolink:visited {
+      color: transparent; }
+    /* line 30, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    footer a.logolink:hover, footer a.logolink:active, footer a.logolink:focus {
+      color: transparent;
+      border-bottom: 1px solid transparent; }
+  /* line 35, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer ul {
     margin: 0; }
-    /* line 27, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 37, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer ul li {
       margin: 6px 0;
       display: inline-block;
       width: 100%;
       text-transform: uppercase;
-      font: 300 12px/18px "Ubuntu", sans-serif; }
-  /* line 35, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+      font: 300 12px/18px "Ubuntu", sans-serif;
+      color: white; }
+  /* line 46, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer .logo {
     margin: 14px 0 44px; }
-    /* line 39, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 50, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer .logo a img {
       height: 40px; }
-  /* line 44, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 55, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer .social {
     text-align: center;
     max-width: 249px; }
-    /* line 47, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 58, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer .social li {
       margin: 0 0 10px 30px;
       display: inline-block;
       width: auto;
       font: 400 16px/19px "Ubuntu", sans-serif; }
-      /* line 52, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+      /* line 63, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
       footer .social li:first-child {
         margin-left: 0; }
-      /* line 55, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+      /* line 66, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
       footer .social li a {
         color: white; }
-        /* line 60, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+        /* line 71, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
         footer .social li a:visited {
           color: white; }
-        /* line 63, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+        /* line 74, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
         footer .social li a:hover, footer .social li a:active, footer .social li a:focus {
           color: #000; }
-  /* line 70, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 81, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer .col-sm-2.cast {
     width: 19.444%; }
 
-/* line 75, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+/* line 86, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
 .copyright br {
   display: none; }
 
-/* line 78, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+/* line 89, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
 .powered {
   display: block;
   color: white;
@@ -3464,66 +3475,66 @@ footer {
   margin: 0 auto;
   margin-top: 7px; }
 
-/* line 86, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+/* line 97, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
 .copyright {
   margin-top: 38px; }
-  /* line 88, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 99, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   .copyright > .container {
     font-weight: 300;
     padding-bottom: 67px; }
-    /* line 91, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 102, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     .copyright > .container a, .copyright > .container a:visited {
       color: #111; }
-    /* line 94, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 105, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     .copyright > .container a:hover, .copyright > .container a:focus, .copyright > .container a:active {
       color: #005baa; }
-    /* line 98, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 109, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     .copyright > .container hr {
       margin: 20px 0 17px;
       border-top: 1px solid white; }
 
 /*========================================================
-                    Responsive  Footer
+Responsive  Footer
 =========================================================*/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 110, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 121, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer ul li {
     font-size: 10px;
     line-height: 16px; }
-  /* line 114, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 125, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer h5 {
     font-size: 13px;
     line-height: 16px;
     margin-bottom: 10px; }
-  /* line 119, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 130, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer .logo {
     margin: 8px 0 30px; }
-  /* line 122, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 133, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer .col-sm-3 {
     width: 25%; }
-  /* line 125, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 136, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer .col-sm-2.cast,
   footer .col-sm-3 {
     width: 20.8%; } }
 
 @media (max-width: 767px) {
-  /* line 134, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 145, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   .box-right-bottom,
   footer > .container {
     display: none; }
-  /* line 138, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+  /* line 149, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
   footer {
     text-align: center; }
-    /* line 140, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 151, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer .copyright {
       margin-top: 0; }
-      /* line 142, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+      /* line 153, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
       footer .copyright .container {
         padding-bottom: 50px; }
-      /* line 145, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+      /* line 156, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
       footer .copyright hr {
         display: none; }
-    /* line 149, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
+    /* line 160, C:/Users/jotttt/Documents/webdev_private/mms/scss/modules/_footer.scss */
     footer .powered,
     footer .site-logo {
       display: none;
