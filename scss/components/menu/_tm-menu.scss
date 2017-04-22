@@ -39,18 +39,19 @@ Menu styles
             background:#fff;
             @include box-shadow-litt;
             z-index: 99;
-            left: 0;
+            //left: 0;
             top: 100%;
-            width: 100%;
-            margin-top: 0;
+            //width: 100%;
+            margin-top: -15px;
+            padding: 15px 10px;
             @include box-sizing(border-box);
             li {
                 position: relative;
-                display: table-cell;
-                padding:25px 25px 22px;
+                display: block;
+                padding: 5px 25px 10px;
                 a{
                     text-transform:uppercase;
-                    font:300 18px/22px $base-font-family;
+                    font:300 13px/16px $base-font-family;
                     color:$base-color;
                 }
                 ul{
@@ -125,7 +126,7 @@ Menu styles
         }
         > ul li {
             a {
-                font-size:14px;
+                font-size:13px;
                 line-height:16px;
             }
             ul {
