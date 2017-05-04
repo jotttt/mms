@@ -28,7 +28,7 @@
 		border:20px solid white;
 		border-width:23px 20px 20px 20px;
 		border-bottom:none;
-		margin:-23px -20px 0 -20px;
+		    margin: 0px 0px 0 0px;
 		.cart-button{
 			padding-bottom:24px;
 		}
@@ -36,7 +36,7 @@
 			-moz-transition: .4s all ease;
 			-webkit-transition: .4s all ease;
 			padding:0 0 177px;
-			margin:-23px -20px -177px -20px;
+			margin: 0px 0px -177px 0px;
 			z-index:2;
 			background:#fff;
 			border-color:#fff;
@@ -195,6 +195,11 @@
 }
 .price-tax {
   font-size: 12px;
+    display: none;
+}
+.price-section span.tax {
+  font-size: 12px;
+    display: none;
 }
 .price-total {
   font-weight: 300;
@@ -217,7 +222,7 @@
 .product-thumb .price-tax {
   color: #999;
   font-size: 12px;
-  display: block;
+  display: none;
 }
 
 .table.table-bordered .price {

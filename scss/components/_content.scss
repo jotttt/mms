@@ -64,6 +64,9 @@
 #content ul.list-unstyled {
 	padding-left:0;
 	margin:0 0 20px;
+    li:first-child {
+        display: none;
+    }
 	ul{
 		padding-left:20px;
 		margin:10px 0 20px;
