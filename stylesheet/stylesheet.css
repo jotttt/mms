@@ -2353,7 +2353,7 @@ Menu styles
         /* line 47, C:/Users/jotttt/Documents/webdev_private/mms/scss/components/boxes/_html_boxes.scss */
         .box_html.banners .row a .desc .tx {
           font: 300 37px/55px "Wagner Grotesk Pro", sans-serif;
-          letter-spacing: 5px; }
+          letter-spacing: 3px; }
     /* line 56, C:/Users/jotttt/Documents/webdev_private/mms/scss/components/boxes/_html_boxes.scss */
     .box_html.banners .row .banner-1 a .desc {
       margin-top: -50px;
@@ -2362,8 +2362,8 @@ Menu styles
       /* line 60, C:/Users/jotttt/Documents/webdev_private/mms/scss/components/boxes/_html_boxes.scss */
       .box_html.banners .row .banner-1 a .desc .tx {
         font-size: 54px;
-        line-height: 65px;
-        letter-spacing: 15px;
+        line-height: 95px;
+        letter-spacing: 9px;
         background: rgba(39, 39, 39, 0.4); }
       /* line 66, C:/Users/jotttt/Documents/webdev_private/mms/scss/components/boxes/_html_boxes.scss */
       .box_html.banners .row .banner-1 a .desc .button {
