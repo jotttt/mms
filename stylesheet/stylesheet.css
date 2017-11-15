@@ -3611,118 +3611,114 @@ Responsive  Footer
 /* line 202, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .breadcrumb {
   margin: 10px 0 35px;
-  padding: 15px 20px;
+  padding: 8px 15px;
   font-weight: 300;
   border-radius: 0;
-  border: 1px solid #f2f2f2;
   background: #fff;
-  -webkit-box-shadow: 0 4px 5px #f2f2f2;
-  -moz-box-shadow: 0 4px 5px #f2f2f2;
-  box-shadow: 0 4px 5px #f2f2f2;
   text-transform: uppercase; }
-  /* line 211, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 209, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .breadcrumb a {
     display: inline-block; }
-  /* line 214, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 212, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .breadcrumb a:hover {
     color: #cccccc; }
-  /* line 217, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 215, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .breadcrumb i {
     font-size: 15px;
     vertical-align: top; }
 
-/* line 225, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 223, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .pagination {
   margin: 0; }
 
-/* line 229, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 227, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .name {
   font: 300 14px/16px "Ubuntu", sans-serif;
   color: #111;
   text-transform: uppercase;
   margin-bottom: 14px; }
 
-/* line 236, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 234, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .name a:visited {
   color: #111; }
 
-/* line 239, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 237, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .name a:hover, .name a:focus, .name a:active {
   color: #005baa; }
 
-/* line 243, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 241, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 td .name a {
   font-size: 13px; }
 
-/* line 247, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 245, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 td .price, .price b {
   padding-bottom: 0; }
 
 /*************************/
-/* line 252, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 250, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-xs {
   font-size: 9px; }
 
-/* line 256, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 254, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-sm {
   font-size: 10.2px; }
 
-/* line 260, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 258, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-lg {
   padding: 10px 16px;
   font-size: 15px; }
 
-/* line 265, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 263, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .dropdown-menu {
   border-radius: 0; }
 
-/* line 269, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 267, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-group.open .dropdown-toggle {
   box-shadow: none; }
 
-/* line 273, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 271, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover {
   font-size: 12px; }
 
-/* line 277, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 275, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-group > .btn-xs {
   font-size: 9px; }
 
-/* line 281, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 279, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-group > .btn-sm {
   font-size: 10.2px; }
 
-/* line 285, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 283, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .btn-group > .btn-lg {
   font-size: 15px; }
 
-/* line 289, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 287, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #list-view.active,
 #grid-view.active,
 #list-view:hover,
 #grid-view:hover {
   color: #005baa; }
 
-/* line 297, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 295, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #list-view,
 #grid-view {
   background: none;
   box-shadow: none;
   color: #d3d3d3; }
-  /* line 302, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 300, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #list-view i,
   #grid-view i {
     line-height: 36px;
     height: 32px; }
 
 /* list group */
-/* line 309, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 307, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .list-group a {
   border: 1px solid rgba(0, 0, 0, 0.15);
   color: #111;
   padding: 8px 12px; }
 
-/* line 315, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 313, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .list-group a.active, .list-group a.active:hover, .list-group a:hover {
   color: #444444;
   background: #eeeeee;
@@ -3730,22 +3726,22 @@ td .price, .price b {
   text-shadow: 0 1px 0 #FFF; }
 
 /* carousel */
-/* line 323, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 321, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .carousel-caption {
   color: #FFFFFF;
   text-shadow: 0 1px 0 #000000; }
 
-/* line 328, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 326, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .carousel-control .icon-prev:before {
   content: '\f053';
   font-family: FontAwesome; }
 
-/* line 333, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 331, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .carousel-control .icon-next:before {
   content: '\f054';
   font-family: FontAwesome; }
 
-/* line 338, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 336, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .thumbnails {
   overflow: auto;
   clear: both;
@@ -3753,86 +3749,86 @@ td .price, .price b {
   padding: 0;
   margin: 0; }
 
-/* line 346, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 344, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .thumbnails > li {
   margin-left: 20px; }
 
-/* line 350, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 348, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .thumbnails {
   margin-left: -20px; }
 
-/* line 354, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 352, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .thumbnails > img {
   width: 100%; }
 
-/* line 358, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 356, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .thumbnail a {
   display: block; }
 
-/* line 362, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 360, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .image-additional a {
   margin-bottom: 20px;
   padding: 5px;
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.15); }
 
-/* line 369, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 367, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .image-additional {
   max-width: 78px; }
 
-/* line 373, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 371, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .thumbnails .image-additional {
   float: left;
   margin-left: 20px; }
 
-/* line 378, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 376, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .flexslider .slides img {
   width: inherit; }
 
-/* line 382, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 380, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .flexslider.carousel .slides img {
   width: auto; }
 
-/* line 386, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 384, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .slides {
   padding: 0;
   margin: 0;
   list-style: none; }
 
-/* line 392, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 390, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .slides li {
   text-align: center; }
 
-/* line 396, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 394, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .slides li img {
   text-align: center; }
 
-/* line 400, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 398, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .flex-direction-nav a:before {
   line-height: 40px; }
 
 /** dropdown **/
-/* line 405, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 403, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .dropdown-menu > li > a {
   text-transform: uppercase;
   color: #777;
   padding: 3px 10px; }
 
 /***************PRODUCT PAGE**********************/
-/* line 412, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 410, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .quickview_description {
   margin-top: 15px; }
 
-/* line 415, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 413, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .fancybox-inner .price {
   margin-bottom: 15px; }
 
-/* line 418, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 416, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-desc iframe {
   position: relative;
   z-index: 1; }
 
-/* line 422, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 420, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .quickview_description iframe,
 .product-desc iframe {
   width: 40% !important;
@@ -3840,15 +3836,15 @@ td .price, .price b {
   float: left;
   margin-right: 2em; }
 
-/* line 430, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 428, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .quickview-style .inf {
   font-size: 14px;
   margin-bottom: 10px; }
 
-/* line 435, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 433, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .quickview-style .cart-button {
   margin-top: 10px; }
-  /* line 437, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 435, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .quickview-style .cart-button .btn {
     padding: 0;
     border-radius: 50%;
@@ -3857,30 +3853,30 @@ td .price, .price b {
     line-height: 38px;
     text-align: center; }
 
-/* line 447, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 445, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-desc ul {
   list-style: inside; }
 
-/* line 451, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 449, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-section {
   margin-bottom: 3em; }
 
-/* line 455, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 453, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-content-columns {
   margin-bottom: 20px; }
 
-/* line 459, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 457, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-share {
   clear: both;
   padding: 0;
   height: 32px;
   margin-top: 1em; }
-  /* line 464, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 462, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .product-share li {
     display: inline-block;
     text-align: center;
     margin-right: 3px; }
-    /* line 468, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 466, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .product-share li a {
       display: block;
       height: 30px;
@@ -3888,35 +3884,35 @@ td .price, .price b {
       border-radius: 100%;
       background: #ccc;
       color: #fff; }
-      /* line 475, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+      /* line 473, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
       .product-share li a:hover {
         background: #383838; }
-    /* line 479, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 477, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .product-share li i {
       line-height: 32px;
       font-size: 18px; }
 
-/* line 486, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 484, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-buttons {
   clear: both;
   overflow: hidden;
   margin: 0 -5px 1em;
   padding: 0 0 5px; }
-  /* line 491, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 489, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .product-buttons li {
     float: left;
     width: 50%;
     padding: 0 5px;
     list-style: none; }
-    /* line 496, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 494, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .product-buttons li button {
       width: 100%; }
 
-/* line 502, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 500, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 ul.product-section.list-unstyled li a i {
   display: none; }
 
-/* line 506, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 504, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-section_title {
   margin-bottom: 1em;
   text-align: center;
@@ -3925,15 +3921,15 @@ ul.product-section.list-unstyled li a i {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease; }
 
-/* line 512, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 510, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #reviews_form_title:hover {
   color: #005baa; }
 
-/* line 516, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 514, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .review-form-title {
   text-align: center; }
 
-/* line 520, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 518, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #reviews_form_title {
   cursor: pointer;
   position: relative;
@@ -3942,7 +3938,7 @@ ul.product-section.list-unstyled li a i {
   display: inline-block;
   text-align: center; }
 
-/* line 529, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 527, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #reviews_form_title:before {
   display: block;
   position: absolute;
@@ -3955,32 +3951,32 @@ ul.product-section.list-unstyled li a i {
   content: '';
   margin-left: -10px; }
 
-/* line 542, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 540, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-review-form {
   display: none; }
 
-/* line 546, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 544, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .bootstrap-datetimepicker-widget td span.glyphicon:hover {
   background: none !important; }
 
-/* line 550, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 548, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product_page #button-cart {
   width: 100%; }
 
-/* line 554, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 552, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .bx-wrapper .bx-viewport {
   background-color: transparent; }
 
-/* line 558, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 556, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .bx-wrapper .bx-controls-direction a i {
   line-height: 30px;
   vertical-align: top; }
 
-/* line 563, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 561, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .bx-wrapper .bx-controls-direction a:hover {
   color: #005baa; }
 
-/* line 567, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 565, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .bx-wrapper .bx-controls-direction a {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -3992,16 +3988,16 @@ ul.product-section.list-unstyled li a i {
   width: 30px; }
 
 @media (max-width: 767px) {
-  /* line 580, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 578, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-prev i, .bx-wrapper .bx-controls-direction .bx-next i {
     display: none; }
-  /* line 583, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 581, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-prev:before, .bx-wrapper .bx-controls-direction .bx-next:before {
     font-family: "FontAwesome"; }
-  /* line 587, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 585, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-prev:before {
     content: '\f104'; }
-  /* line 590, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 588, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-next:before {
     content: '\f105'; } }
 
@@ -4015,24 +4011,24 @@ ul.product-section.list-unstyled li a i {
 .product-gallery:after {
   clear: both; }
 
-/* line 599, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 597, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #full_gallery {
   border: 1px solid rgba(0, 0, 0, 0.15); }
 
-/* line 603, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 601, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery {
   margin-bottom: 30px; }
 
-/* line 607, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 605, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .product-image {
   cursor: pointer; }
 
-/* line 611, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 609, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .bx-controls-direction,
 #default_gallery .bx-controls {
   height: 100%; }
 
-/* line 616, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 614, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb .bx-wrapper .bx-prev,
 #default_gallery .image-thumb .bx-wrapper .bx-next {
   top: auto;
@@ -4048,75 +4044,75 @@ ul.product-section.list-unstyled li a i {
   left: auto;
   border: 0; }
 
-/* line 632, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 630, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb .bx-wrapper .bx-prev:hover,
 #default_gallery .image-thumb .bx-wrapper .bx-next:hover {
   background: #004077; }
 
-/* line 637, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 635, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb .bx-wrapper .bx-prev {
   top: 0;
   bottom: auto;
   right: auto; }
 
-/* line 643, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 641, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb .bx-wrapper .bx-prev i,
 #default_gallery .image-thumb .bx-wrapper .bx-next i {
   line-height: 30px;
   color: #fff;
   display: block; }
 
-/* line 650, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 648, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb img:hover,
 #default_gallery .image-thumb .active img {
   border-color: #005baa; }
 
-/* line 655, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 653, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb img {
   border: 1px solid rgba(0, 0, 0, 0.15); }
 
-/* line 659, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 657, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image-thumb {
   padding: 0;
   float: left;
   padding-right: 1em;
   width: 18%; }
 
-/* line 666, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 664, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-image {
   float: left;
   width: 81.6%;
   background: none; }
 
-/* line 672, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 670, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .zoomWindow {
   background-color: #fff; }
 
-/* line 676, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 674, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #image-additional {
   margin: 0;
   padding: 0; }
 
-/* line 681, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 679, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #image-additional li {
   float: none;
   list-style: none; }
 
-/* line 686, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 684, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .bx-wrapper {
   margin: 0 !important; }
 
-/* line 690, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 688, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery img {
   background-color: #fff;
   width: 100%; }
 
-/* line 695, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 693, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-reviews .review-item {
   margin-bottom: 2em;
   padding-bottom: 2em; }
 
-/* line 700, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 698, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .review-author {
   font-size: 14px;
   color: #111;
@@ -4124,65 +4120,65 @@ ul.product-section.list-unstyled li a i {
   font-weight: 300;
   margin-bottom: 5px; }
 
-/* line 708, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 706, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .review-score {
   margin-bottom: 10px; }
-  /* line 710, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 708, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .review-score .fa-stack {
     width: 1.5em;
     height: 1.5em;
     color: #dedbdb; }
-  /* line 715, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 713, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .review-score .fa-stack .active {
     color: #005baa; }
 
-/* line 719, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 717, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product_page h1 {
   margin-bottom: 20px;
   color: #111;
   line-height: normal; }
 
-/* line 726, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 724, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-section a:hover, .product-section a:active, .product-section a:focus {
   color: #005baa; }
 
-/* line 731, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 729, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .reward-block span {
   display: block; }
 
-/* line 735, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 733, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #product .input-group[class*="col-"] {
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 739, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 737, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .ps-carousel-item img {
   background-color: #EFEEEE; }
 
-/* line 743, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 741, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .ps-zoom-pan-rotate img {
   background-color: #EFEEEE; }
 
-/* line 747, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 745, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #full_gallery {
   display: none; }
 
 /***************owl carousel**********************/
-/* line 752, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 750, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .owl-carousel {
   box-shadow: none; }
 
 /***************BOX**********************/
-/* line 756, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 754, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 aside .box .box-product > div {
   width: 100%; }
 
 /***************PRODUCT CATEGORY PAGE**********************/
-/* line 761, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 759, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .zoomWrapper {
   vertical-align: top; }
 
-/* line 765, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 763, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image {
   background-color: #efeeee;
   width: 81.6%;
@@ -4190,7 +4186,7 @@ aside .box .box-product > div {
   border: 1px solid rgba(0, 0, 0, 0.15);
   margin-bottom: 1px; }
 
-/* line 773, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 771, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #default_gallery .image img {
   vertical-align: top;
   width: 100% !important;
@@ -4198,44 +4194,44 @@ aside .box .box-product > div {
   display: block;
   position: relative !important; }
 
-/* line 781, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 779, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product_page h1.product-title {
   margin: 0 0 10px 0; }
 
-/* line 785, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 783, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .general_info {
   margin-bottom: 20px; }
 
-/* line 789, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 787, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .fancybox-skin {
   background: #fff; }
-  /* line 791, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 789, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .fancybox-skin .rating {
     margin: 5px 0 10px; }
 
-/* line 796, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 794, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .general_info .product-section,
 .general_info .price-section {
   margin: 0 0 5px;
   padding-bottom: 10px;
   border-bottom: 1px solid #dcdcdc; }
 
-/* line 803, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 801, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .box-subcat {
   padding: 0;
   margin: 0; }
-  /* line 806, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 804, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li {
     list-style: none;
     text-align: center;
     margin-bottom: 30px; }
-    /* line 810, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 808, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li .name a {
       text-transform: uppercase; }
-      /* line 812, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+      /* line 810, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
       .box-subcat li .name a:hover {
         color: #005baa; }
-    /* line 817, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 815, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li .image a {
       display: block;
       position: relative;
@@ -4249,57 +4245,57 @@ aside .box .box-product > div {
       -o-transition: 0.3s all ease;
       -webkit-transition: 0.3s all ease;
       transition: 0.3s all ease; }
-      /* line 825, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+      /* line 823, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
       .box-subcat li .image a img {
         background-color: #fff; }
-      /* line 828, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+      /* line 826, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
       .box-subcat li .image a:hover {
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
         -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
         z-index: 2;
         border-color: #fff; }
-        /* line 832, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+        /* line 830, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
         .box-subcat li .image a:hover img {
           background: #f5f5f5; }
-    /* line 838, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 836, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li.first-in-line {
       clear: left; }
 
-/* line 844, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 842, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .img-thumbnail {
   border: 0;
   background-color: #f7f9fd;
   padding: 0;
   border-radius: 0; }
 
-/* line 851, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 849, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-filter {
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding: 20px 0;
   margin-bottom: 20px; }
-  /* line 856, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 854, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .product-filter label {
     font-size: 12px;
     padding-top: 8px;
     text-transform: uppercase; }
 
-/* line 863, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 861, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .nav-cat {
   margin-bottom: 23px; }
 
-/* line 867, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 865, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .nav-cat .nam-page {
   margin: 5px 0 5px 10px; }
 
-/* line 871, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 869, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .button-view button:active,
 .button-view button:focus,
 .button-view button:hover {
   color: #005baa; }
 
-/* line 877, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 875, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .button-view button {
   border: 0;
   background: none;
@@ -4307,7 +4303,7 @@ aside .box .box-product > div {
   padding: 0;
   margin: 0 5px; }
 
-/* line 885, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 883, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .button-view button i {
   vertical-align: top;
   border: 0;
@@ -4315,47 +4311,47 @@ aside .box .box-product > div {
   font-size: 27px; }
 
 /*======== RELATED PRODUCTS =============*/
-/* line 893, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 891, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .related-products .owl-carousel .owl-item > div {
   margin-left: 15px;
   margin-right: 15px; }
 
-/* line 897, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 895, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .related-slider {
   padding: 0 30px;
   margin: 0;
   border: none;
   background: none;
   list-style-type: none; }
-  /* line 905, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 903, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .related-slider .product-thumb .cart-button .row button:hover i, .related-slider .product-thumb .cart-button .row button:focus i, .related-slider .product-thumb .cart-button .row button:active i {
     color: #005baa;
     background: #fff;
     border-color: #ececec; }
-  /* line 912, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 910, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .related-slider .image {
     margin-bottom: 15px; }
-    /* line 914, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 912, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .related-slider .image img {
       background: #fff; }
 
-/* line 920, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 918, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .related-products li .product-thumb {
   margin-bottom: 0; }
 
 /*======== PRODUCT TABS =============*/
-/* line 925, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 923, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .tabs {
   margin-top: 10px; }
 
-/* line 929, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 927, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .tabs .tab-heading i {
   font-size: 26px;
   color: #7e7e7e;
   float: right;
   margin-top: 5px; }
 
-/* line 936, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 934, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .tabs .tab-heading {
   padding: 13px 20px;
   line-height: 32px;
@@ -4366,94 +4362,94 @@ aside .box .box-product > div {
   border-bottom: 4px solid #000;
   background-color: #f9f9f9; }
 
-/* line 947, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 945, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .tabs .tab-content {
   padding: 20px 0; }
 
-/* line 951, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 949, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #review td {
   font-size: 13px; }
 
-/* line 955, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 953, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .rating a {
   cursor: pointer; }
 
 /*======== BLOCK COMPARE =============*/
-/* line 960, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 958, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .compare-block {
   margin-bottom: 20px; }
 
-/* line 964, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 962, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .compare-block .image {
   margin-right: 10px; }
 
-/* line 968, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 966, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .compare-block .remove a {
   font-size: 19px;
   line-height: normal; }
 
-/* line 973, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 971, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .compare-info {
   width: 100%; }
 
-/* line 977, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 975, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .block-compare {
   position: relative;
   overflow: hidden; }
 
-/* line 982, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 980, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .table .rating {
   line-height: 20px; }
 
 @media (max-width: 991px) {
-  /* line 987, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 985, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .table-compare {
     overflow-x: scroll;
     overflow-y: hidden; }
-    /* line 990, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 988, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .table-compare .table.table-bordered td + td {
       min-width: 270px; } }
 
 @media (max-width: 767px) {
-  /* line 997, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 995, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .table.table-bordered {
     margin-bottom: 10px; }
-  /* line 1001, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 999, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .table-responsive {
     border: none; }
-    /* line 1003, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1001, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .table-responsive .table-bordered {
       border: 1px solid rgba(0, 0, 0, 0.15); }
-  /* line 1007, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1005, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li .image a {
     margin: 0;
     border: none; }
-    /* line 1010, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1008, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li .image a:hover {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none;
       background: #fff; }
-      /* line 1013, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+      /* line 1011, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
       .box-subcat li .image a:hover img {
         background: #fff; } }
 
 /************** QUICKVIEW **************************/
-/* line 1021, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1019, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .quick_info {
   display: none; }
 
-/* line 1025, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1023, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .fancybox-skin:hover .fancybox-nav span {
   visibility: visible; }
 
-/* line 1029, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1027, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .fancybox-nav {
   height: 40px;
   top: 50%;
   width: 40px; }
 
-/* line 1035, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1033, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .quickview_description {
   overflow: auto;
   max-height: 300px;
@@ -4461,11 +4457,11 @@ aside .box .box-product > div {
   padding: 10px; }
 
 /****** ABOUT PAGE*****/
-/* line 1043, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1041, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .extra-wrap {
   overflow: hidden; }
 
-/* line 1047, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1045, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .dropcap {
   background: #005baa;
   border-radius: 0;
@@ -4482,24 +4478,24 @@ aside .box .box-product > div {
   display: block;
   float: left; }
 
-/* line 1064, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1062, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 img.alignleft {
   float: left;
   margin: 0 20px 0px 0; }
 
-/* line 1069, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1067, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .sm_hr {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.15);
   margin: 50px 0; }
 
-/* line 1075, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1073, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .about-page h4 {
   margin: -3px 0 5px;
   font-size: 16px;
   line-height: 20px; }
 
-/* line 1087, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1085, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .human_info figure,
 .about-page figure {
   background: none repeat scroll 0 0 #fff;
@@ -4510,30 +4506,30 @@ img.alignleft {
   margin: 0 auto 12px;
   border-radius: 0; }
 
-/* line 1097, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1095, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .about-page figure:hover {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.11); }
 
-/* line 1100, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1098, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .human_info figure {
   float: left;
   margin-right: 20px; }
 
-/* line 1105, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1103, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .about-page .excerpt {
   text-align: center;
   font-size: 12px;
   margin-bottom: 30px; }
 
-/* line 1111, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1109, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .about-page h5 {
   text-align: center;
   text-transform: uppercase;
   margin: 0 0 5px; }
 
-/* line 1117, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1115, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .about-page i {
   color: #005baa;
   display: block;
@@ -4542,7 +4538,7 @@ img.alignleft {
   margin-right: 15px;
   overflow: hidden; }
 
-/* line 1126, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1124, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .clear {
   clear: both;
   margin: 0;
@@ -4551,35 +4547,35 @@ img.alignleft {
   border: 0;
   line-height: 0; }
 
-/* line 1135, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1133, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .recent-posts {
   text-align: center; }
 
-/* line 1138, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1136, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials {
   font-weight: 300; }
 
-/* line 1141, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1139, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials .testi-item {
   margin-bottom: 30px; }
 
-/* line 1145, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1143, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials .testi-item a {
   font-size: 12px; }
 
-/* line 1149, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1147, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials .testi-meta {
   line-height: 18px;
   padding-left: 50px;
   display: block; }
 
-/* line 1155, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1153, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials .user {
   text-transform: uppercase;
   font-size: 14px;
   color: #111; }
 
-/* line 1161, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1159, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials blockquote:after {
   content: '';
   position: absolute;
@@ -4590,46 +4586,46 @@ img.alignleft {
   bottom: -20px;
   left: 30px; }
 
-/* line 1172, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1170, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .testimonials blockquote {
   border: 1px solid rgba(0, 0, 0, 0.15);
   position: relative;
   margin-bottom: 30px; }
-  /* line 1176, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1174, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .testimonials blockquote a {
     color: #111; }
-    /* line 1178, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1176, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .testimonials blockquote a:hover, .testimonials blockquote a:focus, .testimonials blockquote a:active {
       color: #005baa; }
 
-/* line 1184, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1182, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .terms_conditions_page p {
   margin-bottom: 20px; }
 
-/* line 1188, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1186, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .terms_conditions_page h4 {
   margin: 0 0 10px;
   font-size: 16px;
   text-transform: uppercase; }
 
-/* line 1194, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1192, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .table.privacy_page td {
   border-top: 0;
   padding: 0 30px 30px; }
 
-/* line 1199, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1197, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .privacy_page td:first-child {
   text-align: right; }
 
-/* line 1203, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1201, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .privacy_page tr > td + td {
   border-left: 1px solid #dcdcdc; }
 
-/* line 1207, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1205, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .privacy_page {
   font-weight: 300; }
 
-/* line 1211, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1209, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .privacy_page h4 {
   float: right;
   margin: 0 0 10px;
@@ -4638,28 +4634,28 @@ img.alignleft {
   font-size: 14px; }
 
 /********** SITEMAP PAGE ******************/
-/* line 1220, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1218, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .site-map-page #content ul li {
   padding: 5px 0; }
 
-/* line 1224, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1222, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .site-map-page #content .breadcrumb li {
   padding: 0 20px; }
-  /* line 1226, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1224, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .site-map-page #content .breadcrumb li i {
     display: none; }
 
-/* line 1231, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1229, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .site-map-page #content ul li a {
   font-size: 13px; }
 
-/* line 1235, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1233, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .site-map-page #content ul li a i {
   font-size: 15px;
   margin-right: 5px;
   color: #005baa; }
 
-/* line 1241, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1239, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .site-map-page #content ul li {
   list-style-type: none;
   font-size: 14px;
@@ -4668,32 +4664,32 @@ img.alignleft {
   font-weight: 300; }
 
 /********/
-/* line 1251, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1249, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-manufacturer #content strong {
   text-transform: uppercase;
   font-weight: 300;
   color: #111; }
 
-/* line 1256, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1254, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .product-manufacturer #content p a {
   color: #005baa;
   font-size: 14px;
   font-weight: bold; }
-  /* line 1260, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1258, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .product-manufacturer #content p a:hover, .product-manufacturer #content p a:active, .product-manufacturer #content p a:focus {
     color: #111;
     text-decoration: none; }
 
-/* line 1266, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1264, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .manufacturer-list {
   border: 1px solid rgba(0, 0, 0, 0.15);
   margin-bottom: -1px; }
-  /* line 1269, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1267, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .manufacturer-list a {
     text-transform: uppercase;
     font-weight: 300; }
 
-/* line 1275, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1273, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .manufacturer-heading {
   background: none repeat scroll 0 0 #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
@@ -4702,7 +4698,7 @@ img.alignleft {
   margin-bottom: 2px;
   padding: 5px; }
 
-/* line 1284, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1282, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .manufacturer-heading span {
   background: none repeat scroll 0 0 #005baa;
   color: #fff;
@@ -4715,18 +4711,18 @@ img.alignleft {
   text-transform: uppercase;
   width: 50px; }
 
-/* line 1297, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1295, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .manufacturer-content a i {
   font-size: 15px;
   color: #005baa;
   margin-right: 5px; }
 
-/* line 1303, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1301, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .manufacturer-content {
   padding: 20px; }
 
 /********** ACCOUNT ******************/
-/* line 1308, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1306, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .well {
   background-color: #fff;
   border: 1px solid #fff;
@@ -4734,111 +4730,111 @@ img.alignleft {
   padding: 30px;
   border-radius: 0;
   box-shadow: none; }
-  /* line 1315, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1313, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .well .heading {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     margin-bottom: 15px;
     padding-bottom: 15px; }
-    /* line 1319, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1317, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .well .heading i {
       color: #111;
       float: left;
       font-size: 40px;
       margin: 0 15px 10px 0;
       line-height: 44px; }
-    /* line 1326, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1324, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .well .heading h2 {
       font-size: 18px;
       margin: 0 0 5px; }
-    /* line 1330, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1328, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .well .heading strong {
       font-weight: normal;
       font-style: italic; }
-  /* line 1335, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1333, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .well p {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     margin-bottom: 15px;
     padding-bottom: 15px; }
-  /* line 1340, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1338, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .well a {
     display: inline-block;
     margin-top: 10px; }
 
-/* line 1346, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1344, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #content ul.list-unstyled li {
   padding: 6px 0; }
 
-/* line 1350, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1348, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 #content ul.list-unstyled li a i {
   font-size: 17px;
   margin-right: 5px;
   color: #005baa; }
 
-/* line 1356, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1354, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .zoomWindow {
   z-index: 40 !important; }
 
-/* line 1360, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1358, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .bootstrap-datetimepicker-widget {
   padding-bottom: 0; }
-  /* line 1362, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1360, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bootstrap-datetimepicker-widget ul {
     margin-bottom: 0; }
 
-/* line 1368, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1366, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .datepicker .prev, .datepicker .next {
   cursor: pointer;
   -moz-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease; }
-  /* line 1371, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1369, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .datepicker .prev:hover, .datepicker .next:hover {
     color: #005baa; }
 
-/* line 1375, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1373, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .datepicker th {
   text-align: center; }
 
-/* line 1378, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1376, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .datepicker .day {
   -moz-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   cursor: pointer; }
-  /* line 1381, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1379, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .datepicker .day:hover, .datepicker .day.active {
     color: #005baa; }
 
-/* line 1387, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1385, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .radio {
   line-height: 18px; }
 
 /* fixed colum left + content + right*/
 @media (min-width: 768px) {
-  /* line 1393, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1391, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #column-left .product-layout .col-md-3 {
     width: 100%; }
-  /* line 1396, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1394, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #column-left + #content .product-layout .col-md-3 {
     width: 50%; }
-  /* line 1399, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1397, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #column-left + #content + #column-right .product-layout .col-md-3 {
     width: 100%; }
-  /* line 1402, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1400, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #content + #column-right .product-layout .col-md-3 {
     width: 100%; } }
 
-/* line 1407, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1405, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .fancybox-next {
   right: -60px; }
 
-/* line 1411, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1409, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 .fancybox-prev {
   left: -60px; }
 
-/* line 1415, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+/* line 1413, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
 input#input-voucher,
 input#input-coupon {
   display: inline-block;
@@ -4846,187 +4842,187 @@ input#input-coupon {
   margin-right: 5px; }
 
 @media (max-width: 1199px) {
-  /* line 1423, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1421, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .table th, .table td {
     padding: 8px; } }
 
 @media (min-width: 1200px) {
-  /* line 1429, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1427, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .container {
     width: 1200px; } }
 
 @media (max-width: 991px) {
-  /* line 1435, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1433, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .button-view {
     margin-top: 10px; } }
 
 @media (min-width: 768px) {
-  /* line 1440, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1438, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box .box-content .last {
     clear: left; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 1446, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1444, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .name {
     font-size: 13px;
     margin-bottom: 8px; }
-  /* line 1450, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1448, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li .image a {
     border-width: 12px;
     margin: -12px -12px 5px; }
-  /* line 1454, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1452, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #default_gallery .image-thumb .bx-wrapper .bx-prev,
   #default_gallery .image-thumb .bx-wrapper .bx-next {
     height: 22px;
     line-height: 22px; }
-    /* line 1458, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1456, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     #default_gallery .image-thumb .bx-wrapper .bx-prev i,
     #default_gallery .image-thumb .bx-wrapper .bx-next i {
       line-height: 22px; }
-  /* line 1462, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1460, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #default_gallery .image-thumb {
     padding-right: 16px; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 1468, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1466, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .fb-like-box {
     width: 210px !important; }
-    /* line 1470, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1468, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .fb-like-box > span, .fb-like-box > span > iframe {
       width: 100% !important;
       height: 300px !important; }
-  /* line 1475, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1473, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .name {
     font-size: 12px;
     margin-bottom: 6px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1482, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1480, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .well .heading {
     text-align: center; }
-    /* line 1484, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1482, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .well .heading h2 {
       font-size: 17px; }
-    /* line 1487, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1485, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .well .heading i {
       float: none; }
-  /* line 1491, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1489, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .fancybox-next span {
     right: 25px; }
-  /* line 1494, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1492, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .fancybox-prev span {
     left: 25px; }
-  /* line 1498, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1496, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .panel-body input + span {
     margin-top: 5px;
     display: inline-block; }
-  /* line 1502, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1500, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li .image a {
     border-width: 10px;
     margin: -10px -10px 5px; }
-  /* line 1506, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1504, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #default_gallery .image-thumb .bx-wrapper .bx-prev,
   #default_gallery .image-thumb .bx-wrapper .bx-next {
     height: 16px;
     line-height: 16px; }
-    /* line 1510, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1508, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     #default_gallery .image-thumb .bx-wrapper .bx-prev i,
     #default_gallery .image-thumb .bx-wrapper .bx-next i {
       font-size: 12px;
       line-height: 16px; }
-  /* line 1515, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1513, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #default_gallery .image-thumb {
     padding-right: 15px; } }
 
 @media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* line 1520, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1518, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .magnificent-area {
     display: none !important; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 1526, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1524, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #full_gallery {
     display: block; }
-  /* line 1529, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1527, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .product-content-columns #default_gallery {
     display: none; }
-  /* line 1533, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1531, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box .box-content .box-product ul li:hover .quick-view-button {
     display: none !important;
     visibility: hidden; }
-  /* line 1539, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1537, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-prev i, .bx-wrapper .bx-controls-direction .bx-next i {
     display: none; }
-  /* line 1542, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1540, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-prev:before, .bx-wrapper .bx-controls-direction .bx-next:before {
     font-family: "FontAwesome"; }
-  /* line 1546, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1544, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-prev:before {
     content: '\f104'; }
-  /* line 1549, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1547, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .bx-wrapper .bx-controls-direction .bx-next:before {
     content: '\f105'; } }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 1556, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1554, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li .name a {
     font-size: 14px; } }
 
 @media (max-width: 767px) {
-  /* line 1563, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1561, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   a.quickview {
     display: none !important; }
-  /* line 1566, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1564, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #full_gallery {
     display: block; }
-  /* line 1570, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1568, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #default_gallery {
     visibility: hidden;
     height: 0; }
-    /* line 1574, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1572, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     #default_gallery .image-thumb, #default_gallery .product-image {
       height: 0; }
-  /* line 1579, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1577, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .tabs .tab-heading:hover {
     cursor: pointer; }
-  /* line 1583, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1581, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .tabs .tab-content {
     display: none; }
-  /* line 1587, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1585, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .checkout_button, .button-view {
     display: none; }
-  /* line 1591, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1589, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   aside {
     display: block; }
-  /* line 1593, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1591, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li {
     overflow: hidden;
     text-align: left;
     float: left;
     width: 50%; }
-    /* line 1598, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1596, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li .image {
       display: inline-block;
       float: left;
       margin-right: 15px;
       width: 25%; }
-    /* line 1604, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1602, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li:nth-child(2n+1) {
       clear: both; }
-    /* line 1607, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+    /* line 1605, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
     .box-subcat li + li {
       margin-top: 0 !important; }
-  /* line 1612, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1610, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .quickview_description iframe,
   .product-desc iframe {
     float: none;
     width: 90% !important; }
-  /* line 1618, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1616, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .delivery_page .table {
     font-size: 13px; } }
 
 @media (max-width: 600px) {
-  /* line 1625, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1623, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .quickview_description iframe,
   .product-desc iframe {
     float: none;
@@ -5034,49 +5030,49 @@ input#input-coupon {
     height: 240px !important; } }
 
 @media (max-width: 530px) {
-  /* line 1635, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1633, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .panel-group .panel input#input-voucher,
   .panel-group .panel input#input-coupon {
     width: 100%; }
-  /* line 1639, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1637, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .panel-group .panel span {
     display: block;
     margin-top: 5px; } }
 
 @media (max-width: 500px) {
-  /* line 1647, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1645, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   img.alignleft, .human_info figure {
     float: none;
     margin: 0 auto 20px; }
-  /* line 1651, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1649, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   h1 {
     font-size: 26px; }
-  /* line 1654, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1652, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .box-subcat li {
     width: 100%;
     float: none; } }
 
 @media (max-width: 410px) {
-  /* line 1662, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1660, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   #accordion .table td,
   #accordion .table thead td {
     font-size: 9px;
     word-wrap: break-word; } }
 
 @media (width: 360px) {
-  /* line 1670, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1668, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .common-home .box.latest .box-content, .common-home .box.specials .box-content {
     padding: 0 25px; } }
 
 @media (max-width: 370px) {
-  /* line 1678, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1676, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   img.alignleft {
     float: none;
     margin: 0 0 20px; }
-  /* line 1682, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1680, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .table.privacy_page td {
     padding: 8px; }
-  /* line 1686, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
+  /* line 1684, C:/Users/jotttt/Documents/webdev_private/mms/scss/style.scss */
   .delivery_page .table td,
   .delivery_page .table th {
     padding: 6px; } }
