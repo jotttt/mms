@@ -1,0 +1,68 @@
+<div class="row">
+
+    <!--<div class="col-sm-12 banner-1">
+        <a href="http://meremuuseum.ee/e-pood/index.php?route=product/product&amp;path=76&amp;product_id=54">
+            <img src="image/banners/banner-1.jpg" class="">
+            <div class="desc">
+                <div class="tx">Tere tulemast<br>Lennusadama suveniiripoodi!</div>
+                <span class="button">Vaata lähemalt!</span>
+            </div>
+        </a>
+    </div>-->
+
+    <div class="col-sm-7 banner-2"><a href="index.php?route=product/product&amp;product_id=33"><img src="image/banners/banner-2.jpg"><div class="desc"><div class="tx">Põnevat<br><span>lugemist</span></div>
+        <span class="button">Vaata lähemalt!</span></div>
+        </a></div>
+
+    <div class="col-sm-5 banner-3"><a href="index.php?route=product/product&amp;product_id=28"><img src="image/banners/banner-3.jpg"><div class="desc"><div class="tx">Omanäolised<br>rõivad</div>
+        </div>
+        </a></div>
+
+    <div class="clear"></div>
+
+    <div class="col-sm-5 banner-3"><a href="index.php?route=product/product&amp;product_id=28"><img src="image/banners/banner-4.jpg"><div class="desc"><div class="tx">Omanäolised<br>rõivad</div>
+        </div>
+        </a></div>
+
+    <div class="col-sm-7 banner-2">
+        <a href="index.php?route=product/product&amp;product_id=33">
+            <img src="image/banners/banner-5.jpg">
+            <div class="desc">
+                <div class="tx">Põnevat<br><span>lugemist</span></div>
+                <span class="button">Vaata lähemalt!</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-sm-5">
+        <div class="banner-4"><a href="index.php?route=product/product&amp;product_id=47"><img src="image/banners/banner-4.jpg"><div class="desc"><div class="tx">Soodus<br>Soodus<br>Soodus</div>
+            </div>
+            </a></div>
+        <div class="banner-5">
+            <a href="index.php?route=product/product&amp;product_id=30">
+                <img src="image/banners/banner-5.jpg">
+                <div class="desc">
+                    <div class="tx"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-sm-7 banner-6"><a href="index.php?route=product/product&amp;product_id=31"><img src="image/banners/banner-6.jpg">
+        <div class="desc">
+            <div class="tx">Erilised<br>suveniirid</div>
+        </div>
+        </a>
+    </div>
+
+    <div class="col-sm-12 banner-7">
+        <a href="http://meremuuseum.ee/e-pood/index.php?route=product/product&amp;path=76&amp;product_id=54">
+            <img src="image/banners/banner-8.jpg" class="">
+            <div class="desc">
+                <div class="tx">Tere tulemast<br>Lennusadama suveniiripoodi!</div>
+                <span class="button">Vaata lähemalt!</span>
+            </div>
+        </a>
+    </div>
+
+</div>
