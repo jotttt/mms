@@ -151,8 +151,7 @@ class ModelCatalogProduct extends Model {
 			'p.quantity',
 			'p.price',
 			'rating',
-            'p.sort_order',
-            'p.product_id',
+			'p.sort_order',
 			'p.date_added'
 		);
 
@@ -165,7 +164,7 @@ class ModelCatalogProduct extends Model {
 				$sql .= " ORDER BY " . $data['sort'];
 			}
 		} else {
-			$sql .= " ORDER BY p.sort_order";
+			$sql .= " ORDER BY p.date_added";
 		}
 
 		if (isset($data['order']) && ($data['order'] == 'DESC')) {
