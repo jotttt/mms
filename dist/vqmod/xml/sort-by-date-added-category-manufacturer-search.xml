@@ -1,0 +1,27 @@
+<modification>
+  <id><![CDATA[Default sort order by date added in category, manufacturer and search]]></id>
+  <version><![CDATA[1.0.0]]></version>
+  <vqmver><![CDATA[2.0.0]]></vqmver>
+  <author><![CDATA[aaviya.com]]></author>
+  <file path="catalog/controller/product/" name="category.php,manufacturer.php,search.php,special.php">
+  	<operation>
+  		<search position="replace"><![CDATA[$sort = 'p.sort_order';]]></search>
+  		<add><![CDATA[$sort = 'p.date_added';]]></add>
+  	</operation>
+
+    <operation>
+      <search position="replace"><![CDATA[$order = 'ASC';]]></search>
+      <add><![CDATA[$order = 'DESC';]]></add>
+    </operation>
+  	
+  	<operation>
+  		<search position="replace"><![CDATA[p.sort_order-ASC]]></search>
+  		<add><![CDATA[p.date_added-DESC]]></add>
+  	</operation>
+
+    <operation>
+      <search position="replace"><![CDATA[sort=p.sort_order&order=ASC]]></search>
+      <add><![CDATA[sort=p.date_added&order=DESC]]></add>
+    </operation>
+  </file>
+</modification>
