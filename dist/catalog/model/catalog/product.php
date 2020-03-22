@@ -203,7 +203,8 @@ class ModelCatalogProduct extends Model {
 			'pd.name',
 			'p.model',
 			'ps.price',
-			'rating',
+            'rating',
+            'p.product_id',
 			'p.sort_order'
 		);
 
