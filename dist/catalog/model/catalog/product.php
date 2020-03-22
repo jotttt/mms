@@ -215,7 +215,7 @@ class ModelCatalogProduct extends Model {
 				$sql .= " ORDER BY " . $data['sort'];
 			}
 		} else {
-			$sql .= " ORDER BY p.sort_order";
+			$sql .= " ORDER BY p.product_id DESC";
 		}
 
 		if (isset($data['order']) && ($data['order'] == 'DESC')) {
