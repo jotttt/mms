@@ -18,7 +18,7 @@ class ControllerProductCategory extends Controller {
 		if (isset($this->request->get['sort'])) {
 			$sort = $this->request->get['sort'];
 		} else {
-			$sort = 'p.product_id';
+			$sort = 'p.sort_order';
 		}
 
 		if (isset($this->request->get['order'])) {
@@ -113,14 +113,14 @@ class ControllerProductCategory extends Controller {
 			$data['button_wishlist'] = $this->language->get('button_wishlist');
 			$data['button_compare'] = $this->language->get('button_compare');
 
-			$data['text_sale'] = $this->language->get('text_sale');
+			$data['text_sale'] = $this->language->get('text_sale'); 
 			$data['text_new'] = $this->language->get('text_new');
-
-
+			
+			
 			$data['button_continue'] = $this->language->get('button_continue');
 			$data['button_list'] = $this->language->get('button_list');
 			$data['button_grid'] = $this->language->get('button_grid');
- $data['text_details'] = $this->language->get('text_details');
+ $data['text_details'] = $this->language->get('text_details'); 
 
 			// Set the last category breadcrumb
 			$data['breadcrumbs'][] = array(
@@ -165,7 +165,7 @@ class ControllerProductCategory extends Controller {
 					'filter_sub_category' => true
 				);
 
-  $image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));
+  $image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));   
 				$data['categories'][] = array(
 					'name'  => $result['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
 					'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
@@ -174,8 +174,8 @@ class ControllerProductCategory extends Controller {
 			}
 
 			$data['products'] = array();
-
-				$lim_last=8;
+ 
+				$lim_last=8; 
 				 $filter_data = array(
 					'sort'  => 'p.date_added',
 					'order' => 'DESC',
@@ -185,10 +185,10 @@ class ControllerProductCategory extends Controller {
 				$results1 = $this->model_catalog_product->getProducts($filter_data);
 				$last_array = array();
 				foreach ($results1 as $result) {
-				$last_array[] = $result['product_id'];
+				$last_array[] = $result['product_id'];			
 				};
-
-
+				
+			
 
 			$filter_data = array(
 				'filter_category_id' => $category_id,
@@ -237,15 +237,15 @@ class ControllerProductCategory extends Controller {
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
-
+ 
 				'img-width'       => $this->config->get('config_image_product_width'),
 				'img-height'       => $this->config->get('config_image_product_height'),
-
+				
 					'name'        => $result['name'],
 					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 					'price'       => $price,
 					'special'     => $special,
-  'last_array' => $last_array,  'limit_last' => $lim_last,
+  'last_array' => $last_array,  'limit_last' => $lim_last, 
 					'tax'         => $tax,
 					'rating'      => $result['rating'],
 					'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url)
@@ -433,10 +433,10 @@ class ControllerProductCategory extends Controller {
 			$data['text_error'] = $this->language->get('text_error');
 
 
-			$data['text_sale'] = $this->language->get('text_sale');
+			$data['text_sale'] = $this->language->get('text_sale'); 
 			$data['text_new'] = $this->language->get('text_new');
-
-
+			
+			
 			$data['button_continue'] = $this->language->get('button_continue');
 
 			$data['continue'] = $this->url->link('common/home');

@@ -151,8 +151,7 @@ class ModelCatalogProduct extends Model {
 			'p.quantity',
 			'p.price',
 			'rating',
-            'p.sort_order',
-            'p.product_id',
+			'p.sort_order',
 			'p.date_added'
 		);
 
