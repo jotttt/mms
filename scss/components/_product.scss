@@ -143,9 +143,12 @@
 		padding: 1px 5px 2px;
 		text-align:center;
 	}
-	.sale{
+	.sale {
 		background:$primary;
-	}
+    }
+    .new_pr {
+        display: none;
+    }
 }
 /*=================== Product Price  ===================*/
 
